@@ -81,7 +81,25 @@ export const treeData: TreeNode = {
                     placeholder: "Alci Acosta",
                 },
             },
-            children: []
+            children: [{
+                    id: "julio-jaramillo",
+                    branch: "mex",
+                    image: img("Julio Jaramillo"),
+                    copy: {
+                        es: {
+                            name: "Julio Jaramillo",
+                            title: "El abuelo de la tusa",
+                            tooltip: "Antes de que tus pap\u00E1s nacieran, \u00E9l ya hab\u00EDa escrito el himno oficial para el desamor con pasaporte.",
+                            placeholder: "Julio Jaramillo"
+                        },
+                        en: {
+                            name: "Julio Jaramillo",
+                            title: "The grandfather of heartbreak",
+                            tooltip: "Before your parents were born, he had already written the official anthem for heartbreak with a passport.",
+                            placeholder: "Julio Jaramillo"
+                        }
+                    }
+                }]
         },
         {
             id: "salsa-lavoe",
@@ -732,7 +750,28 @@ export const treeData: TreeNode = {
                             tooltip: 'If Darío had access to synths, he would’ve written "Todo de ti" after a breakup.',
                             placeholder: "Rauw Alejandro",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "rosalia",
+                            branch: "urb",
+                            image: img("Rosal\u00EDa"),
+                            copy: {
+                                es: {
+                                    name: "Rosal\u00EDa",
+                                    title: "Despecho con la u\u00F1a hecha",
+                                    tooltip: "Llora por buler\u00EDas y perrea con autotune. La reina de la tusa experimental.",
+                                    placeholder: "Rosal\u00EDa"
+                                },
+                                en: {
+                                    name: "Rosal\u00EDa",
+                                    title: "Heartbreak with fresh nails",
+                                    tooltip: "Cries in flamenco and grinds with autotune. The queen of experimental heartbreak.",
+                                    placeholder: "Rosal\u00EDa"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "ela",
