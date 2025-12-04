@@ -6,6 +6,8 @@ export const artistImages: Record<string, string> = {
   "Bad Bunny": "artists/bad-bunny.jpg",
   "Billie Eilish": "artists/billie-eilish.jpg",
   "Bruno Mars": "artists/bruno-mars.jpg",
+  "Carin León": "artists/carin-leon.jpg",
+  "Chappell Roan": "artists/chappell-roan.jpg",
   "Christian Nodal": "artists/christian-nodal.jpg",
   "Coldplay": "artists/coldplay.jpg",
   "Conan Gray": "artists/conan-gray.jpg",
