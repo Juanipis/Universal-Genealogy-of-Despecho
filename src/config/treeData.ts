@@ -733,7 +733,28 @@ export const treeData: TreeNode = {
                             tooltip: '"Mañana será bonito" is Antioquian post-breakup positivity (Post-Darío).',
                             placeholder: "Karol G",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "myke-towers",
+                            branch: "urb",
+                            image: img("Myke Towers"),
+                            copy: {
+                                es: {
+                                    name: "Myke Towers",
+                                    title: "El primo cool que sabe de negocios",
+                                    tooltip: "Mientras otros lloran, \u00E9l factura con un flow que parece que nunca ha sufrido.",
+                                    placeholder: "Myke Towers"
+                                },
+                                en: {
+                                    name: "Myke Towers",
+                                    title: "The cool cousin who knows business",
+                                    tooltip: "While others cry, he's making money with a flow that sounds like he's never suffered.",
+                                    placeholder: "Myke Towers"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bad-bunny",
@@ -771,7 +792,28 @@ export const treeData: TreeNode = {
                                     tooltip: "If you see green lights while sad, it’s urban homage to Darío.",
                                     placeholder: "Feid",
                                 },
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "mora",
+                                    branch: "urb",
+                                    image: img("Mora"),
+                                    copy: {
+                                        es: {
+                                            name: "Mora",
+                                            title: "El yerno que perrea con aud\u00EDfonos",
+                                            tooltip: "Llora en est\u00E9reo y te mete un beat que te hace olvidar por qu\u00E9 estabas triste.",
+                                            placeholder: "Mora"
+                                        },
+                                        en: {
+                                            name: "Mora",
+                                            title: "The son-in-law who perreas with headphones",
+                                            tooltip: "He cries in stereo and drops a beat that makes you forget why you were sad.",
+                                            placeholder: "Mora"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -892,6 +934,27 @@ export const treeData: TreeNode = {
                             placeholder: "Pxndx",
                         },
                     },
+                    children: [
+                        {
+                            id: "division-minuscula",
+                            branch: "emo",
+                            image: img("Divisi\u00F3n Min\u00FAscula"),
+                            copy: {
+                                es: {
+                                    name: "Divisi\u00F3n Min\u00FAscula",
+                                    title: "El hermano mayor que s\u00ED sabe de rock",
+                                    tooltip: "Mientras Pxndx hac\u00EDa drama, ellos afinaban guitarras y escrib\u00EDan himnos de desamor m\u00E1s sutiles.",
+                                    placeholder: "Divisi\u00F3n Min\u00FAscula"
+                                },
+                                en: {
+                                    name: "Divisi\u00F3n Min\u00FAscula",
+                                    title: "The older brother who actually knows rock",
+                                    tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
+                                    placeholder: "Divisi\u00F3n Min\u00FAscula"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "the-weeknd",
@@ -1012,8 +1075,8 @@ export const treeData: TreeNode = {
                             },
                         },
                     ],
-                },
-            ],
+                }
+            ]
         }
     ]
 };
