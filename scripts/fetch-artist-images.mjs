@@ -33,12 +33,30 @@ if (!SPOTIFY_CLIENT_ID || !SPOTIFY_CLIENT_SECRET) {
  * Extract unique artist names from treeData.ts by scanning `name:` fields.
  * This is simple but good enough for this controlled file.
  */
+function decodeEscapes(str) {
+  // Convierte escapes comunes (\uXXXX, \u{XXXX}, \xNN, \n, \t, \\) a caracteres reales
+  return str
+    .replace(/\\u\{([0-9a-fA-F]+)\}/g, (_, hex) =>
+      String.fromCodePoint(parseInt(hex, 16))
+    )
+    .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16))
+    )
+    .replace(/\\x([0-9a-fA-F]{2})/g, (_, hex) =>
+      String.fromCharCode(parseInt(hex, 16))
+    )
+    .replace(/\\n/g, "\n")
+    .replace(/\\t/g, "\t")
+    .replace(/\\\\/g, "\\");
+}
+
 function extractArtistNames(source) {
   const nameRegex = /name:\s*"([^"]+)"/g;
   const names = new Set();
   let match;
   while ((match = nameRegex.exec(source)) !== null) {
-    names.add(match[1]);
+    const decoded = decodeEscapes(match[1]);
+    names.add(decoded);
   }
   return Array.from(names).sort();
 }
