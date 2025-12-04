@@ -1,0 +1,956 @@
+import type { BranchConfig, Locale, TreeNode } from "../types/tree";
+import { artistImages } from "./artistImages";
+
+const placeholderImage = "/artists/placeholder.png";
+
+const img = (name: string): string => artistImages[name] ?? placeholderImage;
+
+export const branches: BranchConfig[] = [
+  {
+    id: "mex",
+    accent: "#d35400",
+    copy: {
+      es: { label: "Cantina (México/Colombia)" },
+      en: { label: "Cantina (Mexico/Colombia)" },
+    },
+  },
+  {
+    id: "pop",
+    accent: "#e91e63",
+    copy: {
+      es: { label: "Pop Anglo" },
+      en: { label: "Anglo Pop" },
+    },
+  },
+  {
+    id: "urb",
+    accent: "#9b59b6",
+    copy: {
+      es: { label: "Urbano / Perreo triste" },
+      en: { label: "Urban / Sad perreo" },
+    },
+  },
+  {
+    id: "emo",
+    accent: "#2c3e50",
+    copy: {
+      es: { label: "Emo / Rock" },
+      en: { label: "Emo / Rock" },
+    },
+  },
+  {
+    id: "salsa",
+    accent: "#16a085",
+    copy: {
+      es: { label: "Salsa llorona" },
+      en: { label: "Crying Salsa" },
+    },
+  },
+];
+
+export const treeData: TreeNode = {
+  id: "origin",
+  variant: "king",
+  image: img("Darío Gómez"),
+  copy: {
+    es: {
+      name: "Darío Gómez",
+      title: "El Big Bang del Despecho",
+      tooltip:
+        "Antes del reguetón, del pop y de la salsa romántica, ya existía un señor en Medellín convirtiendo facturas de bar en himnos. Donde termina la psicología, empieza una canción de Darío.",
+      placeholder: "Darío (El Papá)",
+    },
+    en: {
+      name: "Darío Gómez",
+      title: "The Big Bang of Heartbreak",
+      tooltip:
+        "Before reggaeton, pop and romantic salsa, there was a man in Medellín turning bar receipts into anthems. Where therapy gives up, a Darío song begins.",
+      placeholder: "Darío (The Father)",
+    },
+  },
+  children: [
+    {
+      id: "alci-acosta",
+      branch: "mex",
+      image: img("Alci Acosta"),
+      copy: {
+        es: {
+          name: "Alci Acosta",
+          title: "Tío filosófico del guayabo",
+          tooltip:
+            'Si suena "La copa rota" es porque alguien ya va por la tercera botella.',
+          placeholder: "Alci Acosta",
+        },
+        en: {
+          name: "Alci Acosta",
+          title: "Philosophical hangover uncle",
+          tooltip:
+            'If you hear "La copa rota", someone is already on their third bottle.',
+          placeholder: "Alci Acosta",
+        },
+      },
+      children: [],
+    },
+    {
+      id: "salsa-lavoe",
+      branch: "salsa",
+      image: img("Héctor Lavoe"),
+      copy: {
+        es: {
+          name: "Héctor Lavoe",
+          title: "Profeta del despecho en clave de son",
+          tooltip:
+            "Si Darío es la cantina, Lavoe es la barra de salsa donde uno baila para no llorar.",
+          placeholder: "Héctor Lavoe",
+        },
+        en: {
+          name: "Héctor Lavoe",
+          title: "Prophet of salsa heartbreak",
+          tooltip:
+            "If Darío is the dive bar, Lavoe is the salsa club where you dance so you don’t cry.",
+          placeholder: "Héctor Lavoe",
+        },
+      },
+      children: [
+        {
+          id: "frankie-ruiz",
+          branch: "salsa",
+          image: img("Frankie Ruiz"),
+          copy: {
+            es: {
+              name: "Frankie Ruiz",
+              title: "Apóstol de la salsa erótica triste",
+              tooltip:
+                'Cuando cantó "Desnúdate mujer" dejó claro que el despecho también suda.',
+              placeholder: "Frankie Ruiz",
+            },
+            en: {
+              name: "Frankie Ruiz",
+              title: "Apostle of sad erotic salsa",
+              tooltip:
+                'When he sang "Desnúdate mujer" he proved heartbreak can be sweaty too.',
+              placeholder: "Frankie Ruiz",
+            },
+          },
+        },
+        {
+          id: "gilberto-santa-rosa",
+          branch: "salsa",
+          image: img("Gilberto Santa Rosa"),
+          copy: {
+            es: {
+              name: "Gilberto Santa Rosa",
+              title: "Caballero del despecho elegante",
+              tooltip:
+                "Lo que hace Darío con aguardiente, él lo hace con traje y clave.",
+              placeholder: "Gilberto Santa Rosa",
+            },
+            en: {
+              name: "Gilberto Santa Rosa",
+              title: "Gentleman of classy heartbreak",
+              tooltip:
+                "What Darío does with cheap liquor, he does with a suit and clave.",
+              placeholder: "Gilberto Santa Rosa",
+            },
+          },
+        },
+        {
+          id: "maelo-ruiz",
+          branch: "salsa",
+          image: img("Maelo Ruiz"),
+          copy: {
+            es: {
+              name: "Maelo Ruiz",
+              title: "Salsa para llorar en bodas",
+              tooltip:
+                "Nadie sabe si se baila o se termina el compromiso cuando suena.",
+              placeholder: "Maelo Ruiz",
+            },
+            en: {
+              name: "Maelo Ruiz",
+              title: "Wedding-cry salsa specialist",
+              tooltip:
+                "No one knows if you should keep dancing or cancel the wedding when he plays.",
+              placeholder: "Maelo Ruiz",
+            },
+          },
+        },
+        {
+          id: "grupo-niche",
+          branch: "salsa",
+          image: img("Grupo Niche"),
+          copy: {
+            es: {
+              name: "Grupo Niche",
+              title: "Orgullo caleño con tusa",
+              tooltip:
+                "Inventaron el cardio emocional: subir de escalas mientras el corazón se rompe.",
+              placeholder: "Grupo Niche",
+            },
+            en: {
+              name: "Grupo Niche",
+              title: "Cali pride in heartbreak",
+              tooltip:
+                "They invented emotional cardio: key changes while your heart falls apart.",
+              placeholder: "Grupo Niche",
+            },
+          },
+        },
+        {
+          id: "joe-arroyo",
+          branch: "salsa",
+          image: img("Joe Arroyo"),
+          copy: {
+            es: {
+              name: "Joe Arroyo",
+              title: "Despecho con historia patria",
+              tooltip:
+                "Logró que uno aprenda historia bailando y además extrañe a la ex.",
+              placeholder: "Joe Arroyo",
+            },
+            en: {
+              name: "Joe Arroyo",
+              title: "Heartbreak with history lessons",
+              tooltip:
+                "He made people learn history while dancing and still miss their ex.",
+              placeholder: "Joe Arroyo",
+            },
+          },
+        },
+      ],
+    },
+    {
+      id: "vicente",
+      branch: "mex",
+      image: img("Vicente Fernández"),
+      copy: {
+        es: {
+          name: "Vicente Fernández",
+          title: "Patriarca de la cantina",
+          tooltip:
+            "Grítalo con tequila en mano o no se escucha en el palenque.",
+          placeholder: "Vicente Fernández",
+        },
+        en: {
+          name: "Vicente Fernández",
+          title: "Cantina patriarch",
+          tooltip:
+            "Must be shouted with tequila in hand or the arena won’t hear you.",
+          placeholder: "Vicente Fernández",
+        },
+      },
+      children: [
+        {
+          id: "nodal",
+          branch: "mex",
+          image: img("Christian Nodal"),
+          copy: {
+            es: {
+              name: "Christian Nodal",
+              title: "Nieto tatuado del mariachi",
+              tooltip: "Llevó el dolor de la cantina directamente a la cara.",
+              placeholder: "Christian Nodal",
+            },
+            en: {
+              name: "Christian Nodal",
+              title: "Tattooed mariachi grandson",
+              tooltip: "Brought cantina pain straight onto his face.",
+              placeholder: "Christian Nodal",
+            },
+          },
+          children: [
+            {
+              id: "peso-pluma",
+              branch: "mex",
+              image: img("Peso Pluma"),
+              copy: {
+                es: {
+                  name: "Peso Pluma",
+                  title: "Corridos tumbados con tusa",
+                  tooltip:
+                    "Lo que antes era serenata ahora es hilo de Twitter y corrido triste.",
+                  placeholder: "Peso Pluma",
+                },
+                en: {
+                  name: "Peso Pluma",
+                  title: "Sad corridos heir",
+                  tooltip:
+                    "What used to be serenades is now Twitter threads and sad corridos.",
+                  placeholder: "Peso Pluma",
+                },
+              },
+            },
+          ],
+        },
+      ],
+    },
+    {
+      id: "juanga",
+      branch: "mex",
+      image: img("Juan Gabriel"),
+      copy: {
+        es: {
+          name: "Juan Gabriel",
+          title: "Diva inmortal del dolor",
+          tooltip:
+            "Su falsete es la forma más elegante de decir “ya no vuelvas”.",
+          placeholder: "Juan Gabriel",
+        },
+        en: {
+          name: "Juan Gabriel",
+          title: "Immortal pain diva",
+          tooltip:
+            "His falsetto is the classiest way to say “don’t come back.”",
+          placeholder: "Juan Gabriel",
+        },
+      },
+      children: [
+        {
+          id: "paquita",
+          branch: "mex",
+          image: img("Paquita la del Barrio"),
+          copy: {
+            es: {
+              name: "Paquita la del Barrio",
+              title: "La tía que odia a los ex",
+              tooltip:
+                "Mientras Darío llora, Paquita factura pensión emocional de todos los infieles.",
+              placeholder: "Paquita la del Barrio",
+            },
+            en: {
+              name: "Paquita la del Barrio",
+              title: "Auntie who hates exes",
+              tooltip:
+                "While Darío cries, Paquita charges emotional alimony to every cheater.",
+              placeholder: "Paquita la del Barrio",
+            },
+          },
+          children: [
+            {
+              id: "jenny-rivera",
+              branch: "mex",
+              image: img("Jenni Rivera"),
+              copy: {
+                es: {
+                  name: "Jenni Rivera",
+                  title: "Hermana mayor de la tusa banda",
+                  tooltip:
+                    "Demostró que se puede llorar, brindar y demandar todo en la misma canción.",
+                  placeholder: "Jenni Rivera",
+                },
+                en: {
+                  name: "Jenni Rivera",
+                  title: "Banda heartbreak big sis",
+                  tooltip: "Proved you can cry, toast and sue all in one song.",
+                  placeholder: "Jenni Rivera",
+                },
+              },
+            },
+          ],
+        },
+        {
+          id: "ana-gabriel",
+          branch: "mex",
+          image: img("Ana Gabriel"),
+          copy: {
+            es: {
+              name: "Ana Gabriel",
+              title: "Dolor que barre la casa",
+              tooltip:
+                "Plancha prendida, voz ronca y lágrimas en el trapeador.",
+              placeholder: "Ana Gabriel",
+            },
+            en: {
+              name: "Ana Gabriel",
+              title: "Pain while mopping",
+              tooltip: "Iron on, raspy voice, and tears on the mop.",
+              placeholder: "Ana Gabriel",
+            },
+          },
+        },
+        {
+          id: "rocio-durcal",
+          branch: "mex",
+          image: img("Rocío Dúrcal"),
+          copy: {
+            es: {
+              name: "Rocío Dúrcal",
+              title: "Balada con mariachis",
+              tooltip: "La reina española que adoptó el despecho ranchero.",
+              placeholder: "Rocío Dúrcal",
+            },
+            en: {
+              name: "Rocío Dúrcal",
+              title: "Mariachi ballad royalty",
+              tooltip: "The Spanish queen who adopted ranchera heartbreak.",
+              placeholder: "Rocío Dúrcal",
+            },
+          },
+        },
+      ],
+    },
+    {
+      id: "taylor",
+      branch: "pop",
+      image: img("Taylor Swift"),
+      copy: {
+        es: {
+          name: "Taylor Swift",
+          title: "La Darío gringa",
+          tooltip:
+            "Sus ex son su modelo de negocio, igual que las canciones de cantina.",
+          placeholder: "Taylor Swift",
+        },
+        en: {
+          name: "Taylor Swift",
+          title: "Darío, but make it pop",
+          tooltip:
+            "Her exes are a business model, same spirit as cantina anthems.",
+          placeholder: "Taylor Swift",
+        },
+      },
+      children: [
+        {
+          id: "olivia-rodrigo",
+          branch: "pop",
+          image: img("Olivia Rodrigo"),
+          copy: {
+            es: {
+              name: "Olivia Rodrigo",
+              title: "Gen Z que conduce llorando",
+              tooltip:
+                "“Drivers License” es “Nadie es eterno” pero con carnet recién sacado.",
+              placeholder: "Olivia Rodrigo",
+            },
+            en: {
+              name: "Olivia Rodrigo",
+              title: "Gen Z driving and crying",
+              tooltip:
+                '"Drivers License" is "Nadie es eterno" but with a fresh driver’s permit.',
+              placeholder: "Olivia Rodrigo",
+            },
+          },
+          children: [
+            {
+              id: "conan-gray",
+              branch: "pop",
+              image: img("Conan Gray"),
+              copy: {
+                es: {
+                  name: "Conan Gray",
+                  title: "Vecino emo del suburbio",
+                  tooltip:
+                    "Si Darío hubiera crecido en un cul-de-sac, sonaría así.",
+                  placeholder: "Conan Gray",
+                },
+                en: {
+                  name: "Conan Gray",
+                  title: "Suburban emo neighbor",
+                  tooltip:
+                    "If Darío had grown up in a cul-de-sac, he’d sound like this.",
+                  placeholder: "Conan Gray",
+                },
+              },
+              children: [
+                {
+                  id: "girl-in-red",
+                  branch: "pop",
+                  image: img("girl in red"),
+                  copy: {
+                    es: {
+                      name: "girl in red",
+                      title: "Indie de cuarto con corazón partido",
+                      tooltip:
+                        "Si Darío hubiera escrito canciones encerrado en un dormitorio nórdico, sonaría así.",
+                      placeholder: "girl in red",
+                    },
+                    en: {
+                      name: "girl in red",
+                      title: "Bedroom indie with a broken heart",
+                      tooltip:
+                        "If Darío had written songs locked in a Scandinavian bedroom, this would be him.",
+                      placeholder: "girl in red",
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "sabrina-carpenter",
+          branch: "pop",
+          image: img("Sabrina Carpenter"),
+          copy: {
+            es: {
+              name: "Sabrina Carpenter",
+              title: "Sarcasmo azucarado",
+              tooltip:
+                "Aprendió que el despecho también baila con coreografías.",
+              placeholder: "Sabrina Carpenter",
+            },
+            en: {
+              name: "Sabrina Carpenter",
+              title: "Sugary sarcasm",
+              tooltip: "Learned heartbreak can also dance with choreography.",
+              placeholder: "Sabrina Carpenter",
+            },
+          },
+        },
+        {
+          id: "adele",
+          branch: "pop",
+          image: img("Adele"),
+          copy: {
+            es: {
+              name: "Adele",
+              title: "Elegancia llorona",
+              tooltip:
+                "Llora como cualquiera, pero con vestido de gala y voz de trueno.",
+              placeholder: "Adele",
+            },
+            en: {
+              name: "Adele",
+              title: "Elegant crier",
+              tooltip:
+                "Cries like anyone, but in evening wear with thunderous vocals.",
+              placeholder: "Adele",
+            },
+          },
+        },
+        {
+          id: "sam-smith",
+          branch: "pop",
+          image: img("Sam Smith"),
+          copy: {
+            es: {
+              name: "Sam Smith",
+              title: "Balada con falsete",
+              tooltip: "El dolor llega en traje sastre y coros celestiales.",
+              placeholder: "Sam Smith",
+            },
+            en: {
+              name: "Sam Smith",
+              title: "Falsetto balladry",
+              tooltip:
+                "Heartbreak delivered in tailored suits and heavenly choirs.",
+              placeholder: "Sam Smith",
+            },
+          },
+          children: [
+            {
+              id: "lewis-capaldi",
+              branch: "pop",
+              image: img("Lewis Capaldi"),
+              copy: {
+                es: {
+                  name: "Lewis Capaldi",
+                  title: "Heredero del karaoke triste",
+                  tooltip:
+                    "Tiene cara de chiste pero voz de persona que ya superó tres Darios.",
+                  placeholder: "Lewis Capaldi",
+                },
+                en: {
+                  name: "Lewis Capaldi",
+                  title: "Sad karaoke heir",
+                  tooltip:
+                    "Looks like a joke, sings like someone who survived three Daríos already.",
+                  placeholder: "Lewis Capaldi",
+                },
+              },
+            },
+          ],
+        },
+        {
+          id: "harry-styles",
+          branch: "pop",
+          image: img("Harry Styles"),
+          copy: {
+            es: {
+              name: "Harry Styles",
+              title: "Ex-boyband en terapia",
+              tooltip:
+                "Tomó el camino largo: de sufrir en One Direction a llorar en falda Gucci.",
+              placeholder: "Harry Styles",
+            },
+            en: {
+              name: "Harry Styles",
+              title: "Boyband graduate in therapy",
+              tooltip:
+                "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
+              placeholder: "Harry Styles",
+            },
+          },
+        },
+        {
+          id: "bruno-mars",
+          branch: "pop",
+          image: img("Bruno Mars"),
+          copy: {
+            es: {
+              name: "Bruno Mars",
+              title: "Romántico que se tira al fuego",
+              tooltip:
+                "Prometió tirarse debajo de un tren por amor: típico fan avanzado de Darío pero con coreografía.",
+              placeholder: "Bruno Mars",
+            },
+            en: {
+              name: "Bruno Mars",
+              title: "Romantic willing to jump",
+              tooltip:
+                "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
+              placeholder: "Bruno Mars",
+            },
+          },
+        },
+        {
+          id: "lana-del-rey",
+          branch: "pop",
+          image: img("Lana Del Rey"),
+          copy: {
+            es: {
+              name: "Lana Del Rey",
+              title: "Despecho cinematográfico",
+              tooltip:
+                "Hace lo mismo que Darío pero con filtro sepia, cigarro y motel en slow motion.",
+              placeholder: "Lana Del Rey",
+            },
+            en: {
+              name: "Lana Del Rey",
+              title: "Cinematic heartbreak",
+              tooltip:
+                "She does the same as Darío but with sepia filter, cigarette and motel in slow motion.",
+              placeholder: "Lana Del Rey",
+            },
+          },
+        },
+        {
+          id: "billie-eilish",
+          branch: "pop",
+          image: img("Billie Eilish"),
+          copy: {
+            es: {
+              name: "Billie Eilish",
+              title: "Despecho susurrado",
+              tooltip:
+                "Es la generación que decidió que el despecho se canta en voz bajita con hoodie gigante.",
+              placeholder: "Billie Eilish",
+            },
+            en: {
+              name: "Billie Eilish",
+              title: "Whispered heartbreak",
+              tooltip:
+                "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
+              placeholder: "Billie Eilish",
+            },
+          },
+        },
+      ],
+    },
+    {
+      id: "shakira",
+      branch: "urb",
+      image: img("Shakira"),
+      copy: {
+        es: {
+          name: "Shakira",
+          title: "La patrona",
+          tooltip:
+            "Enseñó que el despecho se cura facturando y moviendo la cadera.",
+          placeholder: "Shakira",
+        },
+        en: {
+          name: "Shakira",
+          title: "The matriarch",
+          tooltip:
+            "She taught us heartbreak is cured by invoicing and dancing.",
+          placeholder: "Shakira",
+        },
+      },
+      children: [
+        {
+          id: "karol",
+          branch: "urb",
+          image: img("Karol G"),
+          copy: {
+            es: {
+              name: "Karol G",
+              title: "La Bichota",
+              tooltip:
+                "“Mañana será bonito” es positivismo paisa post-tusa (Post-Darío).",
+              placeholder: "Karol G",
+            },
+            en: {
+              name: "Karol G",
+              title: "La Bichota",
+              tooltip:
+                '"Mañana será bonito" is Antioquian post-breakup positivity (Post-Darío).',
+              placeholder: "Karol G",
+            },
+          },
+        },
+        {
+          id: "bad-bunny",
+          branch: "urb",
+          image: img("Bad Bunny"),
+          copy: {
+            es: {
+              name: "Bad Bunny",
+              title: "Perreo depresivo",
+              tooltip:
+                "“Amorfoda” es una canción de Darío atrapada en un cuerpo de trap.",
+              placeholder: "Bad Bunny",
+            },
+            en: {
+              name: "Bad Bunny",
+              title: "Depressive perreo",
+              tooltip: '"Amorfoda" is a Darío song trapped inside a trap beat.',
+              placeholder: "Bad Bunny",
+            },
+          },
+          children: [
+            {
+              id: "feid",
+              branch: "urb",
+              image: img("Feid"),
+              copy: {
+                es: {
+                  name: "Feid",
+                  title: "Tusa en hoodie verde",
+                  tooltip:
+                    "Si ves luces verdes y estás triste, es homenaje urbano a Darío.",
+                  placeholder: "Feid",
+                },
+                en: {
+                  name: "Feid",
+                  title: "Green hoodie heartbreak",
+                  tooltip:
+                    "If you see green lights while sad, it’s urban homage to Darío.",
+                  placeholder: "Feid",
+                },
+              },
+            },
+          ],
+        },
+        {
+          id: "raul-alexander",
+          branch: "urb",
+          image: img("Rauw Alejandro"),
+          copy: {
+            es: {
+              name: "Rauw Alejandro",
+              title: "Perreo futurista con tusa",
+              tooltip:
+                'Si Darío hubiera tenido efectos de sintetizador, habría hecho "Todo de ti" después de una tusa.',
+              placeholder: "Rauw Alejandro",
+            },
+            en: {
+              name: "Rauw Alejandro",
+              title: "Futuristic perreo heartbreak",
+              tooltip:
+                'If Darío had access to synths, he would’ve written "Todo de ti" after a breakup.',
+              placeholder: "Rauw Alejandro",
+            },
+          },
+        },
+        {
+          id: "ela",
+          branch: "urb",
+          image: img("Ela Taubert"),
+          copy: {
+            es: {
+              name: "Ela Taubert",
+              title: "Pop sad rolo",
+              tooltip: "La nieta bogotana que llora bonito en TikTok.",
+              placeholder: "Ela Taubert",
+            },
+            en: {
+              name: "Ela Taubert",
+              title: "Bogotá sad pop",
+              tooltip:
+                "The Bogotá granddaughter who cries beautifully on TikTok.",
+              placeholder: "Ela Taubert",
+            },
+          },
+          children: [],
+        },
+      ],
+    },
+    {
+      id: "mcr",
+      branch: "emo",
+      image: img("My Chemical Romance"),
+      copy: {
+        es: {
+          name: "My Chemical Romance",
+          title: "Despecho emo",
+          tooltip:
+            '"I\'m Not Okay" es la traducción gringa de "Sobreviviré". Piénsalo.',
+          placeholder: "My Chemical Romance",
+        },
+        en: {
+          name: "My Chemical Romance",
+          title: "Emo heartbreak",
+          tooltip:
+            '"I\'m Not Okay" is the English translation of "Sobreviviré". Think about it.',
+          placeholder: "My Chemical Romance",
+        },
+      },
+      children: [
+        {
+          id: "panda",
+          branch: "emo",
+          image: img("Pxndx"),
+          copy: {
+            es: {
+              name: "Pxndx",
+              title: "Emo con acento regio",
+              tooltip: "Copiaron riffs y también el despecho adolescente.",
+              placeholder: "Pxndx",
+            },
+            en: {
+              name: "Pxndx",
+              title: "Emo with a norteño twist",
+              tooltip:
+                "Borrowed riffs and the teenage heartbreak that came with them.",
+              placeholder: "Pxndx",
+            },
+          },
+        },
+        {
+          id: "the-weeknd",
+          branch: "emo",
+          image: img("The Weeknd"),
+          copy: {
+            es: {
+              name: "The Weeknd",
+              title: "Despecho con luces rojas",
+              tooltip:
+                "Hace lo que haría Darío si en vez de cantina tuviera un after en Las Vegas.",
+              placeholder: "The Weeknd",
+            },
+            en: {
+              name: "The Weeknd",
+              title: "Heartbreak under red lights",
+              tooltip:
+                "Does what Darío would do if he had a Vegas afterparty instead of a cantina.",
+              placeholder: "The Weeknd",
+            },
+          },
+        },
+        {
+          id: "radiohead",
+          branch: "emo",
+          image: img("Radiohead"),
+          copy: {
+            es: {
+              name: "Radiohead",
+              title: "Tristeza existencial con guitarra y laptop",
+              tooltip:
+                "Tomaron el despecho, le quitaron el aguardiente y le pusieron ansiedad del siglo XXI.",
+              placeholder: "Radiohead",
+            },
+            en: {
+              name: "Radiohead",
+              title: "Existential sadness with guitars and laptops",
+              tooltip:
+                "They took heartbreak, removed the liquor and added 21st‑century anxiety.",
+              placeholder: "Radiohead",
+            },
+          },
+          children: [
+            {
+              id: "coldplay",
+              branch: "emo",
+              image: img("Coldplay"),
+              copy: {
+                es: {
+                  name: "Coldplay",
+                  title: "Baladas para llorar en estadios",
+                  tooltip:
+                    "Hacen lo mismo que Darío, pero con pulseritas LED y fuegos artificiales.",
+                  placeholder: "Coldplay",
+                },
+                en: {
+                  name: "Coldplay",
+                  title: "Stadium-sized crying anthems",
+                  tooltip:
+                    "They do what Darío does, but with LED wristbands and fireworks.",
+                  placeholder: "Coldplay",
+                },
+              },
+              children: [
+                {
+                  id: "the-strokes",
+                  branch: "emo",
+                  image: img("The Strokes"),
+                  copy: {
+                    es: {
+                      name: "The Strokes",
+                      title: "Indie rock de cruda emocional",
+                      tooltip:
+                        "Suena a guayabo de banda neoyorquina que anoche se creyó inmortal.",
+                      placeholder: "The Strokes",
+                    },
+                    en: {
+                      name: "The Strokes",
+                      title: "Indie rock emotional hangover",
+                      tooltip:
+                        "Sounds like a New York band’s hangover after thinking they were immortal last night.",
+                      placeholder: "The Strokes",
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "mon-laferte",
+          branch: "emo",
+          image: img("Mon Laferte"),
+          copy: {
+            es: {
+              name: "Mon Laferte",
+              title: "Despecho alternativo",
+              tooltip:
+                "Grita con la misma fuerza que un mariachi borracho a las 3 AM.",
+              placeholder: "Mon Laferte",
+            },
+            en: {
+              name: "Mon Laferte",
+              title: "Alternative heartbreak",
+              tooltip: "Screams with the force of a drunk mariachi at 3 AM.",
+              placeholder: "Mon Laferte",
+            },
+          },
+          children: [
+            {
+              id: "zoe",
+              branch: "emo",
+              image: img("Zoé"),
+              copy: {
+                es: {
+                  name: "Zoé",
+                  title: "Rock espacial con tusa",
+                  tooltip:
+                    "Si le quitas las metáforas cósmicas, queda puro despecho en re menor.",
+                  placeholder: "Zoé",
+                },
+                en: {
+                  name: "Zoé",
+                  title: "Space rock, still heartbroken",
+                  tooltip:
+                    "Remove the cosmic metaphors and you get pure heartbreak in D minor.",
+                  placeholder: "Zoé",
+                },
+              },
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+export const fallbackLocale: Locale = "es";
