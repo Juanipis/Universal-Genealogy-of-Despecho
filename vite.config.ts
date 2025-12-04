@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // REPLACE "<USER>" AND "<REPO>" WITH YOUR GITHUB USER/ORG AND REPO NAME
   // Example: base: '/universal-genealogy-of-despecho/'
-  base: "/",
+  base: "/Universal-Genealogy-of-Despecho/",
 });
