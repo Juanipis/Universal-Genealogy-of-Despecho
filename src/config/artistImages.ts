@@ -50,4 +50,7 @@ export const artistImages: Record<string, string> = {
   "Víctor Manuelle": "artists/victor-manuelle.jpg",
   "Zoé": "artists/zoe.jpg",
   "girl in red": "artists/girl-in-red.jpg",
+  "Mora": "artists/placeholder.png",
+  "Myke Towers": "artists/placeholder.png",
+  "División Minúscula": "artists/placeholder.png",
 };
