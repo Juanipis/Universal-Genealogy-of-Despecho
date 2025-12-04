@@ -151,7 +151,7 @@ async function main() {
   for (const name of artistNames) {
     const fileName = slugifyArtist(name);
     const outPath = path.join(PUBLIC_ARTISTS_DIR, fileName);
-    const publicPath = `/artists/${fileName}`;
+    const publicPath = `artists/${fileName}`;
 
     if (fs.existsSync(outPath)) {
       console.log(`  ✓ ${name} -> ${publicPath} (cached)`);
