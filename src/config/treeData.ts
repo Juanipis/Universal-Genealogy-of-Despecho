@@ -98,7 +98,28 @@ export const treeData: TreeNode = {
                             tooltip: "Before your parents were born, he had already written the official anthem for heartbreak with a passport.",
                             placeholder: "Julio Jaramillo"
                         }
-                    }
+                    },
+                    children: [
+                        {
+                            id: "carin-leon",
+                            branch: "mex",
+                            image: img("Carin Le\u00F3n"),
+                            copy: {
+                                es: {
+                                    name: "Carin Le\u00F3n",
+                                    title: "El yerno del despecho",
+                                    tooltip: "Si los de antes tomaban con aguardiente, \u00E9l pide un whisky caro para olvidarla.",
+                                    placeholder: "Carin Le\u00F3n"
+                                },
+                                en: {
+                                    name: "Carin Le\u00F3n",
+                                    title: "Heartbreak's son-in-law",
+                                    tooltip: "If the old guard drank cheap liquor, he orders a pricey whisky to forget her.",
+                                    placeholder: "Carin Le\u00F3n"
+                                }
+                            }
+                        }
+                    ]
                 }]
         },
         {
@@ -516,7 +537,28 @@ export const treeData: TreeNode = {
                             tooltip: "Learned heartbreak can also dance with choreography.",
                             placeholder: "Sabrina Carpenter",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "chappell-roan",
+                            branch: "pop",
+                            image: img("Chappell Roan"),
+                            copy: {
+                                es: {
+                                    name: "Chappell Roan",
+                                    title: "Pop de rancho para reinas del drama",
+                                    tooltip: "Convierte la tusa en un rodeo queer con brillantina.",
+                                    placeholder: "Chappell Roan"
+                                },
+                                en: {
+                                    name: "Chappell Roan",
+                                    title: "Ranch pop for drama queens",
+                                    tooltip: "Turns heartbreak into a glittery, queer rodeo.",
+                                    placeholder: "Chappell Roan"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "adele",
