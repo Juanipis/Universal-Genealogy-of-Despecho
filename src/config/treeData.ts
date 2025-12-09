@@ -814,6 +814,25 @@ export const treeData: TreeNode = {
                                     }
                                 }
                             ]
+                        },
+                        {
+                            id: "drake",
+                            branch: "urb",
+                            image: img("Drake"),
+                            copy: {
+                                es: {
+                                    name: "Drake",
+                                    title: "El yerno que sufre en Instagram",
+                                    tooltip: "El campe\u00F3n del despecho con indirectas en redes sociales. Si Dar\u00EDo viera sus stories, le dar\u00EDa un par de consejos.",
+                                    placeholder: "Drake"
+                                },
+                                en: {
+                                    name: "Drake",
+                                    title: "The son-in-law who suffers on Instagram",
+                                    tooltip: "The champion of heartbreak with social media subtweets. If Dar\u00EDo saw his stories, he\u2019d give him some advice.",
+                                    placeholder: "Drake"
+                                }
+                            }
                         }
                     ]
                 },
@@ -1075,6 +1094,25 @@ export const treeData: TreeNode = {
                             },
                         },
                     ],
+                },
+                {
+                    id: "paramore",
+                    branch: "emo",
+                    image: img("Paramore"),
+                    copy: {
+                        es: {
+                            name: "Paramore",
+                            title: "El puente entre el rock y el despecho millenial",
+                            tooltip: "Antes de Taylor Swift, ya exist\u00EDa una pelirroja canalizando la tusa en riffs de guitarra.",
+                            placeholder: "Paramore"
+                        },
+                        en: {
+                            name: "Paramore",
+                            title: "The bridge between rock and millenial heartbreak",
+                            tooltip: "Before Taylor Swift, there was a redhead channeling heartbreak into guitar riffs.",
+                            placeholder: "Paramore"
+                        }
+                    }
                 }
             ]
         }
