@@ -158,7 +158,28 @@ export const treeData: TreeNode = {
                             tooltip: 'When he sang "Desnúdate mujer" he proved heartbreak can be sweaty too.',
                             placeholder: "Frankie Ruiz",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "jerry-rivera",
+                            branch: "salsa",
+                            image: img("Jerry Rivera"),
+                            copy: {
+                                es: {
+                                    name: "Jerry Rivera",
+                                    title: "El beb\u00E9 de la salsa",
+                                    tooltip: "Cara de ni\u00F1o, voz de se\u00F1or.",
+                                    placeholder: "Jerry Rivera"
+                                },
+                                en: {
+                                    name: "Jerry Rivera",
+                                    title: "The baby of salsa",
+                                    tooltip: "Baby face, grown man's voice.",
+                                    placeholder: "Jerry Rivera"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "gilberto-santa-rosa",
@@ -177,7 +198,28 @@ export const treeData: TreeNode = {
                             tooltip: "What Darío does with cheap liquor, he does with a suit and clave.",
                             placeholder: "Gilberto Santa Rosa",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "marc-anthony",
+                            branch: "salsa",
+                            image: img("Marc Anthony"),
+                            copy: {
+                                es: {
+                                    name: "Marc Anthony",
+                                    title: "El rey de la salsa rom\u00E1ntica",
+                                    tooltip: "Llorar\u00E1s, y llorar\u00E1s, sin que te pueda consolar.",
+                                    placeholder: "Marc Anthony"
+                                },
+                                en: {
+                                    name: "Marc Anthony",
+                                    title: "The king of romantic salsa",
+                                    tooltip: "You'll cry, and you'll cry, without anyone to console you.",
+                                    placeholder: "Marc Anthony"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "maelo-ruiz",
@@ -236,7 +278,7 @@ export const treeData: TreeNode = {
                             tooltip: "They invented emotional cardio: key changes while your heart falls apart.",
                             placeholder: "Grupo Niche",
                         },
-                    }
+                    },
                 },
                 {
                     id: "joe-arroyo",
@@ -514,7 +556,7 @@ export const treeData: TreeNode = {
                                             tooltip: "If Darío had written songs locked in a Scandinavian bedroom, this would be him.",
                                             placeholder: "girl in red",
                                         },
-                                    }
+                                    },
                                 }
                             ]
                         }
@@ -992,7 +1034,7 @@ export const treeData: TreeNode = {
                             tooltip: "Does what Darío would do if he had a Vegas afterparty instead of a cantina.",
                             placeholder: "The Weeknd",
                         },
-                    },
+                    }
                 },
                 {
                     id: "radiohead",
@@ -1049,11 +1091,11 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    },
-                                },
-                            ],
-                        },
-                    ],
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     id: "mon-laferte",
@@ -1091,9 +1133,9 @@ export const treeData: TreeNode = {
                                     tooltip: "Remove the cosmic metaphors and you get pure heartbreak in D minor.",
                                     placeholder: "Zoé",
                                 },
-                            },
-                        },
-                    ],
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "paramore",
@@ -1112,7 +1154,28 @@ export const treeData: TreeNode = {
                             tooltip: "Before Taylor Swift, there was a redhead channeling heartbreak into guitar riffs.",
                             placeholder: "Paramore"
                         }
-                    }
+                    },
+                    children: [
+                        {
+                            id: "fall-out-boy",
+                            branch: "emo",
+                            image: img("Fall Out Boy"),
+                            copy: {
+                                es: {
+                                    name: "Fall Out Boy",
+                                    title: "El drama con riffs pegajosos",
+                                    tooltip: "Thnks fr th Mmrs.",
+                                    placeholder: "Fall Out Boy"
+                                },
+                                en: {
+                                    name: "Fall Out Boy",
+                                    title: "Drama with catchy riffs",
+                                    tooltip: "Thnks fr th Mmrs.",
+                                    placeholder: "Fall Out Boy"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         }
