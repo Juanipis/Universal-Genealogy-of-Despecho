@@ -278,7 +278,7 @@ export const treeData: TreeNode = {
                             tooltip: "They invented emotional cardio: key changes while your heart falls apart.",
                             placeholder: "Grupo Niche",
                         },
-                    },
+                    }
                 },
                 {
                     id: "joe-arroyo",
@@ -297,7 +297,28 @@ export const treeData: TreeNode = {
                             tooltip: "He made people learn history while dancing and still miss their ex.",
                             placeholder: "Joe Arroyo",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "oscar-d-leon",
+                            branch: "salsa",
+                            image: img("Oscar D'Le\u00F3n"),
+                            copy: {
+                                es: {
+                                    name: "Oscar D'Le\u00F3n",
+                                    title: "El Fara\u00F3n de la Salsa",
+                                    tooltip: "Salsa con bigote y energ\u00EDa inagotable. Si no te animas con \u00E9l, ya est\u00E1s muerto.",
+                                    placeholder: "Oscar D'Le\u00F3n"
+                                },
+                                en: {
+                                    name: "Oscar D'Le\u00F3n",
+                                    title: "The Pharaoh of Salsa",
+                                    tooltip: "Salsa with a mustache and endless energy. If he can't cheer you up, you're already dead.",
+                                    placeholder: "Oscar D'Le\u00F3n"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -556,7 +577,7 @@ export const treeData: TreeNode = {
                                             tooltip: "If Darío had written songs locked in a Scandinavian bedroom, this would be him.",
                                             placeholder: "girl in red",
                                         },
-                                    },
+                                    }
                                 }
                             ]
                         }
@@ -1034,7 +1055,28 @@ export const treeData: TreeNode = {
                             tooltip: "Does what Darío would do if he had a Vegas afterparty instead of a cantina.",
                             placeholder: "The Weeknd",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "amy-winehouse",
+                            branch: "emo",
+                            image: img("Amy Winehouse"),
+                            copy: {
+                                es: {
+                                    name: "Amy Winehouse",
+                                    title: "La Reina del Despecho Vintage",
+                                    tooltip: "Revivi\u00F3 el soul para contarnos sus tragedias. Con ella, cada desamor suena a cl\u00E1sico.",
+                                    placeholder: "Amy Winehouse"
+                                },
+                                en: {
+                                    name: "Amy Winehouse",
+                                    title: "The Queen of Vintage Heartbreak",
+                                    tooltip: "She revived soul to tell us her tragedies. With her, every heartbreak sounds like a classic.",
+                                    placeholder: "Amy Winehouse"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "radiohead",
