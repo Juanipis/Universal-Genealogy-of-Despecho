@@ -217,7 +217,47 @@ export const treeData: TreeNode = {
                                     tooltip: "You'll cry, and you'll cry, without anyone to console you.",
                                     placeholder: "Marc Anthony"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "prince-royce",
+                                    branch: "salsa",
+                                    image: img("Prince Royce"),
+                                    copy: {
+                                        es: {
+                                            name: "Prince Royce",
+                                            title: "Bachata con swag de R&B",
+                                            tooltip: "Suaviz\u00F3 la bachata para que se pudiera bailar en discotecas de lujo.",
+                                            placeholder: "Prince Royce"
+                                        },
+                                        en: {
+                                            name: "Prince Royce",
+                                            title: "Bachata with R&B swag",
+                                            tooltip: "He softened bachata so it could be played in fancy nightclubs.",
+                                            placeholder: "Prince Royce"
+                                        }
+                                    }
+                                },
+                                {
+                                    id: "romeo-santos",
+                                    branch: "salsa",
+                                    image: img("Romeo Santos"),
+                                    copy: {
+                                        es: {
+                                            name: "Romeo Santos",
+                                            title: "Poeta de la bachata moderna",
+                                            tooltip: "Llev\u00F3 la bachata del patio a estadios, con letras que mezclan despecho y telenovela.",
+                                            placeholder: "Romeo Santos"
+                                        },
+                                        en: {
+                                            name: "Romeo Santos",
+                                            title: "Poet of modern bachata",
+                                            tooltip: "He took bachata from the backyard to stadiums, with lyrics that mix heartbreak and soap opera drama.",
+                                            placeholder: "Romeo Santos"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -278,7 +318,7 @@ export const treeData: TreeNode = {
                             tooltip: "They invented emotional cardio: key changes while your heart falls apart.",
                             placeholder: "Grupo Niche",
                         },
-                    },
+                    }
                 },
                 {
                     id: "joe-arroyo",
@@ -556,7 +596,7 @@ export const treeData: TreeNode = {
                                             tooltip: "If Darío had written songs locked in a Scandinavian bedroom, this would be him.",
                                             placeholder: "girl in red",
                                         },
-                                    },
+                                    }
                                 }
                             ]
                         }
@@ -1034,7 +1074,28 @@ export const treeData: TreeNode = {
                             tooltip: "Does what Darío would do if he had a Vegas afterparty instead of a cantina.",
                             placeholder: "The Weeknd",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "joji",
+                            branch: "emo",
+                            image: img("Joji"),
+                            copy: {
+                                es: {
+                                    name: "Joji",
+                                    title: "Desamor lo-fi para memes",
+                                    tooltip: "Empez\u00F3 como comediante de YouTube y termin\u00F3 haciendo la banda sonora para corazones rotos con acceso a internet.",
+                                    placeholder: "Joji"
+                                },
+                                en: {
+                                    name: "Joji",
+                                    title: "Lo-fi heartbreak for memes",
+                                    tooltip: "Started as a YouTube comedian and ended up making the soundtrack for broken hearts with internet access.",
+                                    placeholder: "Joji"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "radiohead",
