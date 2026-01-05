@@ -518,7 +518,28 @@ export const treeData: TreeNode = {
                             tooltip: "The Spanish queen who adopted ranchera heartbreak.",
                             placeholder: "Rocío Dúrcal",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "shaila-durcal",
+                            branch: "mex",
+                            image: img("Shaila D\u00FArcal"),
+                            copy: {
+                                es: {
+                                    name: "Shaila D\u00FArcal",
+                                    title: "La heredera de la ranchera pop",
+                                    tooltip: "La hija que le canta a su mam\u00E1 y al desamor.",
+                                    placeholder: "Shaila D\u00FArcal"
+                                },
+                                en: {
+                                    name: "Shaila D\u00FArcal",
+                                    title: "The heiress of pop ranchera",
+                                    tooltip: "The daughter who sings to her mother and to heartbreak.",
+                                    placeholder: "Shaila D\u00FArcal"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -954,7 +975,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Cries in flamenco and grinds with autotune. The queen of experimental heartbreak.",
                                     placeholder: "Rosal\u00EDa"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "rels-b",
+                                    branch: "urb",
+                                    image: img("Rels B"),
+                                    copy: {
+                                        es: {
+                                            name: "Rels B",
+                                            title: "El flaco del R&B con coraz\u00F3n roto",
+                                            tooltip: "Letras que te hacen extra\u00F1ar a tu ex.",
+                                            placeholder: "Rels B"
+                                        },
+                                        en: {
+                                            name: "Rels B",
+                                            title: "The skinny guy with a broken R&B heart",
+                                            tooltip: "Lyrics that make you miss your ex.",
+                                            placeholder: "Rels B"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1194,7 +1236,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Remove the cosmic metaphors and you get pure heartbreak in D minor.",
                                     placeholder: "Zoé",
                                 },
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "leon-larregui",
+                                    branch: "emo",
+                                    image: img("Le\u00F3n Larregui"),
+                                    copy: {
+                                        es: {
+                                            name: "Le\u00F3n Larregui",
+                                            title: "El solista psicod\u00E9lico del romance oscuro",
+                                            tooltip: "Cuando Zo\u00E9 no es suficiente para el mal de amor.",
+                                            placeholder: "Le\u00F3n Larregui"
+                                        },
+                                        en: {
+                                            name: "Le\u00F3n Larregui",
+                                            title: "The psychedelic soloist of dark romance",
+                                            tooltip: "When Zo\u00E9 is not enough for a broken heart.",
+                                            placeholder: "Le\u00F3n Larregui"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
