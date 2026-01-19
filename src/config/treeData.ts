@@ -318,7 +318,28 @@ export const treeData: TreeNode = {
                             tooltip: "They invented emotional cardio: key changes while your heart falls apart.",
                             placeholder: "Grupo Niche",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "guayacan-orquesta",
+                            branch: "salsa",
+                            image: img("Guayac\u00E1n Orquesta"),
+                            copy: {
+                                es: {
+                                    name: "Guayac\u00E1n Orquesta",
+                                    title: "La competencia de Niche",
+                                    tooltip: "La eterna rivalidad salsera de Cali. Si Niche es la elegancia, Guayac\u00E1n es la fiesta.",
+                                    placeholder: "Guayac\u00E1n Orquesta"
+                                },
+                                en: {
+                                    name: "Guayac\u00E1n Orquesta",
+                                    title: "Niche's Competition",
+                                    tooltip: "Cali's eternal salsa rivalry. If Niche is elegance, Guayac\u00E1n is the party.",
+                                    placeholder: "Guayac\u00E1n Orquesta"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "joe-arroyo",
@@ -399,6 +420,25 @@ export const treeData: TreeNode = {
                             }
                         }
                     ]
+                },
+                {
+                    id: "alejandro-fernandez",
+                    branch: "mex",
+                    image: img("Alejandro Fern\u00E1ndez"),
+                    copy: {
+                        es: {
+                            name: "Alejandro Fern\u00E1ndez",
+                            title: "El potrillo de la Dinast\u00EDa",
+                            tooltip: "Heredero del trono, pero con un toque de pop que su pap\u00E1 nunca se atrevi\u00F3 a explorar.",
+                            placeholder: "Alejandro Fern\u00E1ndez"
+                        },
+                        en: {
+                            name: "Alejandro Fern\u00E1ndez",
+                            title: "The Colt of the Dynasty",
+                            tooltip: "Heir to the throne, but with a pop flair his father never dared to explore.",
+                            placeholder: "Alejandro Fern\u00E1ndez"
+                        }
+                    }
                 }
             ]
         },
@@ -1095,7 +1135,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
                                     placeholder: "Divisi\u00F3n Min\u00FAscula"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "allison",
+                                    branch: "emo",
+                                    image: img("Allison"),
+                                    copy: {
+                                        es: {
+                                            name: "Allison",
+                                            title: "El pop punk de la secu",
+                                            tooltip: "La banda sonora de las primeras tusas, cuando el mayor problema era que no te contestaran el MSN.",
+                                            placeholder: "Allison"
+                                        },
+                                        en: {
+                                            name: "Allison",
+                                            title: "High School Pop Punk",
+                                            tooltip: "The soundtrack to your first heartbreaks, when the biggest problem was not getting an MSN message back.",
+                                            placeholder: "Allison"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
