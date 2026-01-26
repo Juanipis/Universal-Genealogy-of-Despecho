@@ -318,7 +318,28 @@ export const treeData: TreeNode = {
                             tooltip: "They invented emotional cardio: key changes while your heart falls apart.",
                             placeholder: "Grupo Niche",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "guayacan-orquesta",
+                            branch: "salsa",
+                            image: img("Guayac\u00E1n Orquesta"),
+                            copy: {
+                                es: {
+                                    name: "Guayac\u00E1n Orquesta",
+                                    title: "Salsa de la buena, oiga",
+                                    tooltip: "Si Niche es la elegancia, Guayac\u00E1n es la fiesta del barrio.",
+                                    placeholder: "Guayac\u00E1n Orquesta"
+                                },
+                                en: {
+                                    name: "Guayac\u00E1n Orquesta",
+                                    title: "The good stuff, you hear",
+                                    tooltip: "If Niche is elegance, Guayac\u00E1n is the neighborhood party.",
+                                    placeholder: "Guayac\u00E1n Orquesta"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "joe-arroyo",
@@ -680,7 +701,28 @@ export const treeData: TreeNode = {
                             tooltip: "Cries like anyone, but in evening wear with thunderous vocals.",
                             placeholder: "Adele",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "florence-the-machine",
+                            branch: "pop",
+                            image: img("Florence + The Machine"),
+                            copy: {
+                                es: {
+                                    name: "Florence + The Machine",
+                                    title: "Sacerdotisa del pop barroco",
+                                    tooltip: "Voz que invoca huracanes en Glastonbury.",
+                                    placeholder: "Florence + The Machine"
+                                },
+                                en: {
+                                    name: "Florence + The Machine",
+                                    title: "High Priestess of Baroque Pop",
+                                    tooltip: "A voice that summons hurricanes at Glastonbury.",
+                                    placeholder: "Florence + The Machine"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "sam-smith",
@@ -1134,6 +1176,25 @@ export const treeData: TreeNode = {
                                     title: "Lo-fi heartbreak for memes",
                                     tooltip: "Started as a YouTube comedian and ended up making the soundtrack for broken hearts with internet access.",
                                     placeholder: "Joji"
+                                }
+                            }
+                        },
+                        {
+                            id: "post-malone",
+                            branch: "emo",
+                            image: img("Post Malone"),
+                            copy: {
+                                es: {
+                                    name: "Post Malone",
+                                    title: "El chico triste del rap",
+                                    tooltip: "Ahogando penas en autotune y cerveza.",
+                                    placeholder: "Post Malone"
+                                },
+                                en: {
+                                    name: "Post Malone",
+                                    title: "The sad boy of rap",
+                                    tooltip: "Drowning sorrows in autotune and beer.",
+                                    placeholder: "Post Malone"
                                 }
                             }
                         }
