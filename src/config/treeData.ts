@@ -318,7 +318,28 @@ export const treeData: TreeNode = {
                             tooltip: "They invented emotional cardio: key changes while your heart falls apart.",
                             placeholder: "Grupo Niche",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "grupo-gale",
+                            branch: "salsa",
+                            image: img("Grupo Gal\u00E9"),
+                            copy: {
+                                es: {
+                                    name: "Grupo Gal\u00E9",
+                                    title: "Salsa pesada con sentimiento",
+                                    tooltip: "Si el cuerpo baila pero los ojos lloran, es que Gal\u00E9 est\u00E1 en los controles.",
+                                    placeholder: "Grupo Gal\u00E9"
+                                },
+                                en: {
+                                    name: "Grupo Gale",
+                                    title: "Heavy salsa with feeling",
+                                    tooltip: "If the body dances but the eyes cry, Gal\u00E9 is at the controls.",
+                                    placeholder: "Grupo Gale"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "joe-arroyo",
@@ -396,7 +417,28 @@ export const treeData: TreeNode = {
                                     tooltip: "What used to be serenades is now Twitter threads and sad corridos.",
                                     placeholder: "Peso Pluma",
                                 },
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "grupo-frontera",
+                                    branch: "mex",
+                                    image: img("Grupo Frontera"),
+                                    copy: {
+                                        es: {
+                                            name: "Grupo Frontera",
+                                            title: "Cumbia norte\u00F1a para corazones rotos",
+                                            tooltip: "Convirtieron un cover en el himno oficial de los que todav\u00EDa no superan a su ex en 2023.",
+                                            placeholder: "Grupo Frontera"
+                                        },
+                                        en: {
+                                            name: "Grupo Frontera",
+                                            title: "Northern cumbia for broken hearts",
+                                            tooltip: "They turned a cover into the official anthem for those who still haven't moved on in 2023.",
+                                            placeholder: "Grupo Frontera"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -855,7 +897,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While others cry, he's making money with a flow that sounds like he's never suffered.",
                                     placeholder: "Myke Towers"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "manuel-turizo",
+                                    branch: "urb",
+                                    image: img("Manuel Turizo"),
+                                    copy: {
+                                        es: {
+                                            name: "Manuel Turizo",
+                                            title: "Voz de bar\u00EDtono para el desamor",
+                                            tooltip: "Su voz suena a que ya se tom\u00F3 todo el aguardiente de la mesa y a\u00FAn as\u00ED te va a cantar bonito.",
+                                            placeholder: "Manuel Turizo"
+                                        },
+                                        en: {
+                                            name: "Manuel Turizo",
+                                            title: "Baritone voice for heartbreak",
+                                            tooltip: "His voice sounds like he already drank all the liquor on the table and will still sing to you beautifully.",
+                                            placeholder: "Manuel Turizo"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
