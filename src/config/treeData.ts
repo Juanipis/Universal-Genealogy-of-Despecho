@@ -358,7 +358,28 @@ export const treeData: TreeNode = {
                             tooltip: "He made people learn history while dancing and still miss their ex.",
                             placeholder: "Joe Arroyo",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "la-33",
+                            branch: "salsa",
+                            image: img("La-33"),
+                            copy: {
+                                es: {
+                                    name: "La-33",
+                                    title: "Salsa brava de la jungla de concreto",
+                                    tooltip: "Demostraron que en Bogot\u00E1 tambi\u00E9n se sabe sudar la clave con picante.",
+                                    placeholder: "La-33"
+                                },
+                                en: {
+                                    name: "La-33",
+                                    title: "Concrete jungle salsa brava",
+                                    tooltip: "Proved that in Bogot\u00E1 they also know how to sweat the rhythm with spice.",
+                                    placeholder: "La-33"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -819,7 +840,28 @@ export const treeData: TreeNode = {
                             tooltip: "She does the same as Darío but with sepia filter, cigarette and motel in slow motion.",
                             placeholder: "Lana Del Rey",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "lorde",
+                            branch: "pop",
+                            image: img("Lorde"),
+                            copy: {
+                                es: {
+                                    name: "Lorde",
+                                    title: "Melancol\u00EDa de suburbio neozeland\u00E9s",
+                                    tooltip: "Invent\u00F3 el algoritmo de estar triste pero con clase en el 2013.",
+                                    placeholder: "Lorde"
+                                },
+                                en: {
+                                    name: "Lorde",
+                                    title: "New Zealand suburban melancholy",
+                                    tooltip: "Invented the algorithm for being sad but classy in 2013.",
+                                    placeholder: "Lorde"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "billie-eilish",
@@ -1098,7 +1140,28 @@ export const treeData: TreeNode = {
                                     tooltip: "If she vanishes from your feed, she\u2019s dropping autotuned subtweets.",
                                     placeholder: "Kenia OS"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "young-miko",
+                                    branch: "urb",
+                                    image: img("Young Miko"),
+                                    copy: {
+                                        es: {
+                                            name: "Young Miko",
+                                            title: "Trap con estilo y flow de anime",
+                                            tooltip: "Lleg\u00F3 para demostrar que el trap tambi\u00E9n puede ser aesthetic y tener barras que pegan duro.",
+                                            placeholder: "Young Miko"
+                                        },
+                                        en: {
+                                            name: "Young Miko",
+                                            title: "Trap with style and anime flow",
+                                            tooltip: "Came to prove that trap can also be aesthetic and have hard-hitting bars.",
+                                            placeholder: "Young Miko"
+                                        }
+                                    }
+                                }
+                            ]
                         }]
                 }
             ]
@@ -1198,7 +1261,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Started as a YouTube comedian and ended up making the soundtrack for broken hearts with internet access.",
                                     placeholder: "Joji"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "cigarettes-after-sex",
+                                    branch: "emo",
+                                    image: img("Cigarettes After Sex"),
+                                    copy: {
+                                        es: {
+                                            name: "Cigarettes After Sex",
+                                            title: "Susurros para el insomnio post-ruptura",
+                                            tooltip: "M\u00FAsica para mirar el techo y preguntarte por qu\u00E9 te sigue doliendo el 2016.",
+                                            placeholder: "Cigarettes After Sex"
+                                        },
+                                        en: {
+                                            name: "Cigarettes After Sex",
+                                            title: "Whispers for post-breakup insomnia",
+                                            tooltip: "Music for staring at the ceiling and wondering why 2016 still hurts.",
+                                            placeholder: "Cigarettes After Sex"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
