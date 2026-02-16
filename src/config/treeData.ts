@@ -89,7 +89,7 @@ export const treeData: TreeNode = {
                         es: {
                             name: "Julio Jaramillo",
                             title: "El abuelo de la tusa",
-                            tooltip: "Antes de que tus pap\u00E1s nacieran, \u00E9l ya hab\u00EDa escrito el himno oficial para el desamor con pasaporte.",
+                            tooltip: "Antes de que tus papás nacieran, él ya había escrito el himno oficial para el desamor con pasaporte.",
                             placeholder: "Julio Jaramillo"
                         },
                         en: {
@@ -103,19 +103,19 @@ export const treeData: TreeNode = {
                         {
                             id: "carin-leon",
                             branch: "mex",
-                            image: img("Carin Le\u00F3n"),
+                            image: img("Carin León"),
                             copy: {
                                 es: {
-                                    name: "Carin Le\u00F3n",
+                                    name: "Carin León",
                                     title: "El yerno del despecho",
-                                    tooltip: "Si los de antes tomaban con aguardiente, \u00E9l pide un whisky caro para olvidarla.",
-                                    placeholder: "Carin Le\u00F3n"
+                                    tooltip: "Si los de antes tomaban con aguardiente, él pide un whisky caro para olvidarla.",
+                                    placeholder: "Carin León"
                                 },
                                 en: {
-                                    name: "Carin Le\u00F3n",
+                                    name: "Carin León",
                                     title: "Heartbreak's son-in-law",
                                     tooltip: "If the old guard drank cheap liquor, he orders a pricey whisky to forget her.",
-                                    placeholder: "Carin Le\u00F3n"
+                                    placeholder: "Carin León"
                                 }
                             }
                         }
@@ -167,8 +167,8 @@ export const treeData: TreeNode = {
                             copy: {
                                 es: {
                                     name: "Jerry Rivera",
-                                    title: "El beb\u00E9 de la salsa",
-                                    tooltip: "Cara de ni\u00F1o, voz de se\u00F1or.",
+                                    title: "El bebé de la salsa",
+                                    tooltip: "Cara de niño, voz de señor.",
                                     placeholder: "Jerry Rivera"
                                 },
                                 en: {
@@ -177,7 +177,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Baby face, grown man's voice.",
                                     placeholder: "Jerry Rivera"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "luis-enrique",
+                                    branch: "salsa",
+                                    image: img("Luis Enrique"),
+                                    copy: {
+                                        es: {
+                                            name: "Luis Enrique",
+                                            title: "Príncipe de la salsa romántica",
+                                            tooltip: "El príncipe que te enseñó que la salsa también puede ser un llanto sutil.",
+                                            placeholder: "Luis Enrique"
+                                        },
+                                        en: {
+                                            name: "Luis Enrique",
+                                            title: "Prince of romantic salsa",
+                                            tooltip: "The prince who taught you that salsa can also be a subtle cry.",
+                                            placeholder: "Luis Enrique"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -207,8 +228,8 @@ export const treeData: TreeNode = {
                             copy: {
                                 es: {
                                     name: "Marc Anthony",
-                                    title: "El rey de la salsa rom\u00E1ntica",
-                                    tooltip: "Llorar\u00E1s, y llorar\u00E1s, sin que te pueda consolar.",
+                                    title: "El rey de la salsa romántica",
+                                    tooltip: "Llorarás, y llorarás, sin que te pueda consolar.",
                                     placeholder: "Marc Anthony"
                                 },
                                 en: {
@@ -227,7 +248,7 @@ export const treeData: TreeNode = {
                                         es: {
                                             name: "Prince Royce",
                                             title: "Bachata con swag de R&B",
-                                            tooltip: "Suaviz\u00F3 la bachata para que se pudiera bailar en discotecas de lujo.",
+                                            tooltip: "Suavizó la bachata para que se pudiera bailar en discotecas de lujo.",
                                             placeholder: "Prince Royce"
                                         },
                                         en: {
@@ -246,7 +267,7 @@ export const treeData: TreeNode = {
                                         es: {
                                             name: "Romeo Santos",
                                             title: "Poeta de la bachata moderna",
-                                            tooltip: "Llev\u00F3 la bachata del patio a estadios, con letras que mezclan despecho y telenovela.",
+                                            tooltip: "Llevó la bachata del patio a estadios, con letras que mezclan despecho y telenovela.",
                                             placeholder: "Romeo Santos"
                                         },
                                         en: {
@@ -283,18 +304,18 @@ export const treeData: TreeNode = {
                         {
                             id: "victor-manuelle",
                             branch: "salsa",
-                            image: img("V\u00EDctor Manuelle"),
+                            image: img("Víctor Manuelle"),
                             copy: {
                                 es: {
-                                    name: "V\u00EDctor Manuelle",
+                                    name: "Víctor Manuelle",
                                     title: "Salsa para ex que vuelven",
                                     tooltip: "Si aparece en la lista, es porque volviste a contestar el mensaje de madrugada.",
-                                    placeholder: "V\u00EDctor Manuelle"
+                                    placeholder: "Víctor Manuelle"
                                 },
                                 en: {
                                     name: "Victor Manuelle",
                                     title: "Salsa for returning exes",
-                                    tooltip: "If he\u2019s in your queue, you answered that 2am text again.",
+                                    tooltip: "If he’s in your queue, you answered that 2am text again.",
                                     placeholder: "Victor Manuelle"
                                 }
                             }
@@ -323,18 +344,18 @@ export const treeData: TreeNode = {
                         {
                             id: "grupo-gale",
                             branch: "salsa",
-                            image: img("Grupo Gal\u00E9"),
+                            image: img("Grupo Galé"),
                             copy: {
                                 es: {
-                                    name: "Grupo Gal\u00E9",
+                                    name: "Grupo Galé",
                                     title: "Salsa pesada con sentimiento",
-                                    tooltip: "Si el cuerpo baila pero los ojos lloran, es que Gal\u00E9 est\u00E1 en los controles.",
-                                    placeholder: "Grupo Gal\u00E9"
+                                    tooltip: "Si el cuerpo baila pero los ojos lloran, es que Galé está en los controles.",
+                                    placeholder: "Grupo Galé"
                                 },
                                 en: {
                                     name: "Grupo Gale",
                                     title: "Heavy salsa with feeling",
-                                    tooltip: "If the body dances but the eyes cry, Gal\u00E9 is at the controls.",
+                                    tooltip: "If the body dances but the eyes cry, Galé is at the controls.",
                                     placeholder: "Grupo Gale"
                                 }
                             }
@@ -368,13 +389,13 @@ export const treeData: TreeNode = {
                                 es: {
                                     name: "La-33",
                                     title: "Salsa brava de la jungla de concreto",
-                                    tooltip: "Demostraron que en Bogot\u00E1 tambi\u00E9n se sabe sudar la clave con picante.",
+                                    tooltip: "Demostraron que en Bogotá también se sabe sudar la clave con picante.",
                                     placeholder: "La-33"
                                 },
                                 en: {
                                     name: "La-33",
                                     title: "Concrete jungle salsa brava",
-                                    tooltip: "Proved that in Bogot\u00E1 they also know how to sweat the rhythm with spice.",
+                                    tooltip: "Proved that in Bogotá they also know how to sweat the rhythm with spice.",
                                     placeholder: "La-33"
                                 }
                             }
@@ -447,8 +468,8 @@ export const treeData: TreeNode = {
                                     copy: {
                                         es: {
                                             name: "Grupo Frontera",
-                                            title: "Cumbia norte\u00F1a para corazones rotos",
-                                            tooltip: "Convirtieron un cover en el himno oficial de los que todav\u00EDa no superan a su ex en 2023.",
+                                            title: "Cumbia norteña para corazones rotos",
+                                            tooltip: "Convirtieron un cover en el himno oficial de los que todavía no superan a su ex en 2023.",
                                             placeholder: "Grupo Frontera"
                                         },
                                         en: {
@@ -520,7 +541,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Proved you can cry, toast and sue all in one song.",
                                     placeholder: "Jenni Rivera",
                                 },
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "chiquis-rivera",
+                                    branch: "mex",
+                                    image: img("Chiquis Rivera"),
+                                    copy: {
+                                        es: {
+                                            name: "Chiquis Rivera",
+                                            title: "La abeja reina del desmadre",
+                                            tooltip: "Heredera del trono y de los dramas que solo una Rivera sabe cargar.",
+                                            placeholder: "Chiquis Rivera"
+                                        },
+                                        en: {
+                                            name: "Chiquis Rivera",
+                                            title: "The queen bee of the mess",
+                                            tooltip: "Heiress to the throne and the dramas that only a Rivera can carry.",
+                                            placeholder: "Chiquis Rivera"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -551,7 +593,7 @@ export const treeData: TreeNode = {
                                 es: {
                                     name: "Lupita D'Alessio",
                                     title: "Leona del despecho ochentero",
-                                    tooltip: "Cantaba advertencias antes de que existieran las cl\u00E1usulas prenupciales.",
+                                    tooltip: "Cantaba advertencias antes de que existieran las cláusulas prenupciales.",
                                     placeholder: "Lupita D'Alessio"
                                 },
                                 en: {
@@ -586,19 +628,19 @@ export const treeData: TreeNode = {
                         {
                             id: "shaila-durcal",
                             branch: "mex",
-                            image: img("Shaila D\u00FArcal"),
+                            image: img("Shaila Dúrcal"),
                             copy: {
                                 es: {
-                                    name: "Shaila D\u00FArcal",
+                                    name: "Shaila Dúrcal",
                                     title: "La heredera de la ranchera pop",
-                                    tooltip: "La hija que le canta a su mam\u00E1 y al desamor.",
-                                    placeholder: "Shaila D\u00FArcal"
+                                    tooltip: "La hija que le canta a su mamá y al desamor.",
+                                    placeholder: "Shaila Dúrcal"
                                 },
                                 en: {
-                                    name: "Shaila D\u00FArcal",
+                                    name: "Shaila Dúrcal",
                                     title: "The heiress of pop ranchera",
                                     tooltip: "The daughter who sings to her mother and to heartbreak.",
-                                    placeholder: "Shaila D\u00FArcal"
+                                    placeholder: "Shaila Dúrcal"
                                 }
                             }
                         }
@@ -743,7 +785,28 @@ export const treeData: TreeNode = {
                             tooltip: "Cries like anyone, but in evening wear with thunderous vocals.",
                             placeholder: "Adele",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "ed-sheeran",
+                            branch: "pop",
+                            image: img("Ed Sheeran"),
+                            copy: {
+                                es: {
+                                    name: "Ed Sheeran",
+                                    title: "El bardo del despecho acústico",
+                                    tooltip: "El que te hace llorar en el pub mientras te tomas una pinta tibia.",
+                                    placeholder: "Ed Sheeran"
+                                },
+                                en: {
+                                    name: "Ed Sheeran",
+                                    title: "The bard of acoustic heartbreak",
+                                    tooltip: "The one who makes you cry in the pub while you sip a lukewarm pint.",
+                                    placeholder: "Ed Sheeran"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "sam-smith",
@@ -849,8 +912,8 @@ export const treeData: TreeNode = {
                             copy: {
                                 es: {
                                     name: "Lorde",
-                                    title: "Melancol\u00EDa de suburbio neozeland\u00E9s",
-                                    tooltip: "Invent\u00F3 el algoritmo de estar triste pero con clase en el 2013.",
+                                    title: "Melancolía de suburbio neozelandés",
+                                    tooltip: "Inventó el algoritmo de estar triste pero con clase en el 2013.",
                                     placeholder: "Lorde"
                                 },
                                 en: {
@@ -930,7 +993,7 @@ export const treeData: TreeNode = {
                                 es: {
                                     name: "Myke Towers",
                                     title: "El primo cool que sabe de negocios",
-                                    tooltip: "Mientras otros lloran, \u00E9l factura con un flow que parece que nunca ha sufrido.",
+                                    tooltip: "Mientras otros lloran, él factura con un flow que parece que nunca ha sufrido.",
                                     placeholder: "Myke Towers"
                                 },
                                 en: {
@@ -948,8 +1011,8 @@ export const treeData: TreeNode = {
                                     copy: {
                                         es: {
                                             name: "Manuel Turizo",
-                                            title: "Voz de bar\u00EDtono para el desamor",
-                                            tooltip: "Su voz suena a que ya se tom\u00F3 todo el aguardiente de la mesa y a\u00FAn as\u00ED te va a cantar bonito.",
+                                            title: "Voz de barítono para el desamor",
+                                            tooltip: "Su voz suena a que ya se tomó todo el aguardiente de la mesa y aún así te va a cantar bonito.",
                                             placeholder: "Manuel Turizo"
                                         },
                                         en: {
@@ -1009,8 +1072,8 @@ export const treeData: TreeNode = {
                                     copy: {
                                         es: {
                                             name: "Mora",
-                                            title: "El yerno que perrea con aud\u00EDfonos",
-                                            tooltip: "Llora en est\u00E9reo y te mete un beat que te hace olvidar por qu\u00E9 estabas triste.",
+                                            title: "El yerno que perrea con audífonos",
+                                            tooltip: "Llora en estéreo y te mete un beat que te hace olvidar por qué estabas triste.",
                                             placeholder: "Mora"
                                         },
                                         en: {
@@ -1031,13 +1094,13 @@ export const treeData: TreeNode = {
                                 es: {
                                     name: "Drake",
                                     title: "El yerno que sufre en Instagram",
-                                    tooltip: "El campe\u00F3n del despecho con indirectas en redes sociales. Si Dar\u00EDo viera sus stories, le dar\u00EDa un par de consejos.",
+                                    tooltip: "El campeón del despecho con indirectas en redes sociales. Si Darío viera sus stories, le daría un par de consejos.",
                                     placeholder: "Drake"
                                 },
                                 en: {
                                     name: "Drake",
                                     title: "The son-in-law who suffers on Instagram",
-                                    tooltip: "The champion of heartbreak with social media subtweets. If Dar\u00EDo saw his stories, he\u2019d give him some advice.",
+                                    tooltip: "The champion of heartbreak with social media subtweets. If Darío saw his stories, he’d give him some advice.",
                                     placeholder: "Drake"
                                 }
                             }
@@ -1066,19 +1129,19 @@ export const treeData: TreeNode = {
                         {
                             id: "rosalia",
                             branch: "urb",
-                            image: img("Rosal\u00EDa"),
+                            image: img("Rosalía"),
                             copy: {
                                 es: {
-                                    name: "Rosal\u00EDa",
-                                    title: "Despecho con la u\u00F1a hecha",
-                                    tooltip: "Llora por buler\u00EDas y perrea con autotune. La reina de la tusa experimental.",
-                                    placeholder: "Rosal\u00EDa"
+                                    name: "Rosalía",
+                                    title: "Despecho con la uña hecha",
+                                    tooltip: "Llora por bulerías y perrea con autotune. La reina de la tusa experimental.",
+                                    placeholder: "Rosalía"
                                 },
                                 en: {
-                                    name: "Rosal\u00EDa",
+                                    name: "Rosalía",
                                     title: "Heartbreak with fresh nails",
                                     tooltip: "Cries in flamenco and grinds with autotune. The queen of experimental heartbreak.",
-                                    placeholder: "Rosal\u00EDa"
+                                    placeholder: "Rosalía"
                                 }
                             },
                             children: [
@@ -1089,8 +1152,8 @@ export const treeData: TreeNode = {
                                     copy: {
                                         es: {
                                             name: "Rels B",
-                                            title: "El flaco del R&B con coraz\u00F3n roto",
-                                            tooltip: "Letras que te hacen extra\u00F1ar a tu ex.",
+                                            title: "El flaco del R&B con corazón roto",
+                                            tooltip: "Letras que te hacen extrañar a tu ex.",
                                             placeholder: "Rels B"
                                         },
                                         en: {
@@ -1131,13 +1194,13 @@ export const treeData: TreeNode = {
                                 es: {
                                     name: "Kenia OS",
                                     title: "Pop urbano para llorar en close friends",
-                                    tooltip: "Si no la ves en el feed, est\u00E1 soltando indirectas con autotune.",
+                                    tooltip: "Si no la ves en el feed, está soltando indirectas con autotune.",
                                     placeholder: "Kenia OS"
                                 },
                                 en: {
                                     name: "Kenia OS",
                                     title: "Urban pop for crying on close friends",
-                                    tooltip: "If she vanishes from your feed, she\u2019s dropping autotuned subtweets.",
+                                    tooltip: "If she vanishes from your feed, she’s dropping autotuned subtweets.",
                                     placeholder: "Kenia OS"
                                 }
                             },
@@ -1150,7 +1213,7 @@ export const treeData: TreeNode = {
                                         es: {
                                             name: "Young Miko",
                                             title: "Trap con estilo y flow de anime",
-                                            tooltip: "Lleg\u00F3 para demostrar que el trap tambi\u00E9n puede ser aesthetic y tener barras que pegan duro.",
+                                            tooltip: "Llegó para demostrar que el trap también puede ser aesthetic y tener barras que pegan duro.",
                                             placeholder: "Young Miko"
                                         },
                                         en: {
@@ -1207,19 +1270,19 @@ export const treeData: TreeNode = {
                         {
                             id: "division-minuscula",
                             branch: "emo",
-                            image: img("Divisi\u00F3n Min\u00FAscula"),
+                            image: img("División Minúscula"),
                             copy: {
                                 es: {
-                                    name: "Divisi\u00F3n Min\u00FAscula",
-                                    title: "El hermano mayor que s\u00ED sabe de rock",
-                                    tooltip: "Mientras Pxndx hac\u00EDa drama, ellos afinaban guitarras y escrib\u00EDan himnos de desamor m\u00E1s sutiles.",
-                                    placeholder: "Divisi\u00F3n Min\u00FAscula"
+                                    name: "División Minúscula",
+                                    title: "El hermano mayor que sí sabe de rock",
+                                    tooltip: "Mientras Pxndx hacía drama, ellos afinaban guitarras y escribían himnos de desamor más sutiles.",
+                                    placeholder: "División Minúscula"
                                 },
                                 en: {
-                                    name: "Divisi\u00F3n Min\u00FAscula",
+                                    name: "División Minúscula",
                                     title: "The older brother who actually knows rock",
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
-                                    placeholder: "Divisi\u00F3n Min\u00FAscula"
+                                    placeholder: "División Minúscula"
                                 }
                             }
                         }
@@ -1252,7 +1315,7 @@ export const treeData: TreeNode = {
                                 es: {
                                     name: "Joji",
                                     title: "Desamor lo-fi para memes",
-                                    tooltip: "Empez\u00F3 como comediante de YouTube y termin\u00F3 haciendo la banda sonora para corazones rotos con acceso a internet.",
+                                    tooltip: "Empezó como comediante de YouTube y terminó haciendo la banda sonora para corazones rotos con acceso a internet.",
                                     placeholder: "Joji"
                                 },
                                 en: {
@@ -1271,7 +1334,7 @@ export const treeData: TreeNode = {
                                         es: {
                                             name: "Cigarettes After Sex",
                                             title: "Susurros para el insomnio post-ruptura",
-                                            tooltip: "M\u00FAsica para mirar el techo y preguntarte por qu\u00E9 te sigue doliendo el 2016.",
+                                            tooltip: "Música para mirar el techo y preguntarte por qué te sigue doliendo el 2016.",
                                             placeholder: "Cigarettes After Sex"
                                         },
                                         en: {
@@ -1388,19 +1451,19 @@ export const treeData: TreeNode = {
                                 {
                                     id: "leon-larregui",
                                     branch: "emo",
-                                    image: img("Le\u00F3n Larregui"),
+                                    image: img("León Larregui"),
                                     copy: {
                                         es: {
-                                            name: "Le\u00F3n Larregui",
-                                            title: "El solista psicod\u00E9lico del romance oscuro",
-                                            tooltip: "Cuando Zo\u00E9 no es suficiente para el mal de amor.",
-                                            placeholder: "Le\u00F3n Larregui"
+                                            name: "León Larregui",
+                                            title: "El solista psicodélico del romance oscuro",
+                                            tooltip: "Cuando Zoé no es suficiente para el mal de amor.",
+                                            placeholder: "León Larregui"
                                         },
                                         en: {
-                                            name: "Le\u00F3n Larregui",
+                                            name: "León Larregui",
                                             title: "The psychedelic soloist of dark romance",
-                                            tooltip: "When Zo\u00E9 is not enough for a broken heart.",
-                                            placeholder: "Le\u00F3n Larregui"
+                                            tooltip: "When Zoé is not enough for a broken heart.",
+                                            placeholder: "León Larregui"
                                         }
                                     }
                                 }
@@ -1416,7 +1479,7 @@ export const treeData: TreeNode = {
                         es: {
                             name: "Paramore",
                             title: "El puente entre el rock y el despecho millenial",
-                            tooltip: "Antes de Taylor Swift, ya exist\u00EDa una pelirroja canalizando la tusa en riffs de guitarra.",
+                            tooltip: "Antes de Taylor Swift, ya existía una pelirroja canalizando la tusa en riffs de guitarra.",
                             placeholder: "Paramore"
                         },
                         en: {
