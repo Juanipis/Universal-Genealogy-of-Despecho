@@ -117,7 +117,28 @@ export const treeData: TreeNode = {
                                     tooltip: "If the old guard drank cheap liquor, he orders a pricey whisky to forget her.",
                                     placeholder: "Carin León"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "galy-galiano",
+                                    branch: "mex",
+                                    image: img("Galy Galiano"),
+                                    copy: {
+                                        es: {
+                                            name: "Galy Galiano",
+                                            title: "El hombre de la maleta",
+                                            tooltip: "Me bebí tu recuerdo para olvidarte, pero ahora te recuerdo borracho.",
+                                            placeholder: "Galy Galiano"
+                                        },
+                                        en: {
+                                            name: "Galy Galiano",
+                                            title: "The man with the suitcase",
+                                            tooltip: "I drank your memory to forget you, but now I remember you drunk.",
+                                            placeholder: "Galy Galiano"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }]
@@ -318,7 +339,28 @@ export const treeData: TreeNode = {
                                     tooltip: "If he’s in your queue, you answered that 2am text again.",
                                     placeholder: "Victor Manuelle"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "tito-rojas",
+                                    branch: "salsa",
+                                    image: img("Tito Rojas"),
+                                    copy: {
+                                        es: {
+                                            name: "Tito Rojas",
+                                            title: "El Gallo de la Salsa",
+                                            tooltip: "Dale pa' bajo, que el despecho se baila apretado.",
+                                            placeholder: "Tito Rojas"
+                                        },
+                                        en: {
+                                            name: "Tito Rojas",
+                                            title: "The Salsa Rooster",
+                                            tooltip: "Keep it low, heartbreak is danced tight.",
+                                            placeholder: "Tito Rojas"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -358,7 +400,28 @@ export const treeData: TreeNode = {
                                     tooltip: "If the body dances but the eyes cry, Galé is at the controls.",
                                     placeholder: "Grupo Gale"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "guayacan-orquesta",
+                                    branch: "salsa",
+                                    image: img("Guayacán Orquesta"),
+                                    copy: {
+                                        es: {
+                                            name: "Guayacán Orquesta",
+                                            title: "Salsa con sabor a caña",
+                                            tooltip: "Si no has llorado con 'Oiga, Mire, Vea', no eres caleño de corazón.",
+                                            placeholder: "Guayacán Orquesta"
+                                        },
+                                        en: {
+                                            name: "Guayacán Orquesta",
+                                            title: "Salsa with sugarcane flavor",
+                                            tooltip: "If you haven't cried with 'Oiga, Mire, Vea', you're not from Cali at heart.",
+                                            placeholder: "Guayacán Orquesta"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
