@@ -542,6 +542,25 @@ export const treeData: TreeNode = {
                                             placeholder: "Grupo Frontera"
                                         }
                                     }
+                                },
+                                {
+                                    id: "natanael-cano",
+                                    branch: "mex",
+                                    image: img("Natanael Cano"),
+                                    copy: {
+                                        es: {
+                                            name: "Natanael Cano",
+                                            title: "Pionero del corrido tumbado",
+                                            tooltip: "El que empezó todo el desmadre tumbado.",
+                                            placeholder: "Natanael Cano"
+                                        },
+                                        en: {
+                                            name: "Natanael Cano",
+                                            title: "Pioneer of sad corridos",
+                                            tooltip: "The one who started the whole tumbado mess.",
+                                            placeholder: "Natanael Cano"
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -868,6 +887,25 @@ export const treeData: TreeNode = {
                                     placeholder: "Ed Sheeran"
                                 }
                             }
+                        },
+                        {
+                            id: "shawn-mendes",
+                            branch: "pop",
+                            image: img("Shawn Mendes"),
+                            copy: {
+                                es: {
+                                    name: "Shawn Mendes",
+                                    title: "El niño bueno de la tusa",
+                                    tooltip: "Canta con la guitarra y el corazón en la mano.",
+                                    placeholder: "Shawn Mendes"
+                                },
+                                en: {
+                                    name: "Shawn Mendes",
+                                    title: "The good boy of heartbreak",
+                                    tooltip: "Sings with his guitar and heart on his sleeve.",
+                                    placeholder: "Shawn Mendes"
+                                }
+                            }
                         }
                     ]
                 },
@@ -1144,6 +1182,25 @@ export const treeData: TreeNode = {
                                             title: "The son-in-law who perreas with headphones",
                                             tooltip: "He cries in stereo and drops a beat that makes you forget why you were sad.",
                                             placeholder: "Mora"
+                                        }
+                                    }
+                                },
+                                {
+                                    id: "ryan-castro",
+                                    branch: "urb",
+                                    image: img("Ryan Castro"),
+                                    copy: {
+                                        es: {
+                                            name: "Ryan Castro",
+                                            title: "El cantante del ghetto dolido",
+                                            tooltip: "Perreo con sentimiento de barrio.",
+                                            placeholder: "Ryan Castro"
+                                        },
+                                        en: {
+                                            name: "Ryan Castro",
+                                            title: "The heartbroken ghetto singer",
+                                            tooltip: "Perreo with neighborhood feeling.",
+                                            placeholder: "Ryan Castro"
                                         }
                                     }
                                 }
