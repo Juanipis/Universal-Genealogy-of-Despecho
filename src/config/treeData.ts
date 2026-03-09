@@ -560,7 +560,28 @@ export const treeData: TreeNode = {
                                             tooltip: "The one who started the whole tumbado mess.",
                                             placeholder: "Natanael Cano"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "junior-h",
+                                            branch: "mex",
+                                            image: img("Junior H"),
+                                            copy: {
+                                                es: {
+                                                    name: "Junior H",
+                                                    title: "Corridos tumbados melancólicos",
+                                                    tooltip: "Letras para llorarle a la ex mientras manejas a 120 por hora.",
+                                                    placeholder: "Junior H"
+                                                },
+                                                en: {
+                                                    name: "Junior H",
+                                                    title: "Melancholic tumbado corridos",
+                                                    tooltip: "Lyrics for crying over your ex while driving 80 mph.",
+                                                    placeholder: "Junior H"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1183,7 +1204,28 @@ export const treeData: TreeNode = {
                                             tooltip: "He cries in stereo and drops a beat that makes you forget why you were sad.",
                                             placeholder: "Mora"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "jhayco",
+                                            branch: "urb",
+                                            image: img("Jhayco"),
+                                            copy: {
+                                                es: {
+                                                    name: "Jhayco",
+                                                    title: "Perreo triste en la oscuridad",
+                                                    tooltip: "Beats lentos para cuando el club está cerrando y sigues pensando en ella.",
+                                                    placeholder: "Jhayco"
+                                                },
+                                                en: {
+                                                    name: "Jhayco",
+                                                    title: "Sad perreo in the dark",
+                                                    tooltip: "Slow beats for when the club is closing and you're still thinking of her.",
+                                                    placeholder: "Jhayco"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     id: "ryan-castro",
@@ -1627,7 +1669,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Thnks fr th Mmrs.",
                                     placeholder: "Fall Out Boy"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "panic-at-the-disco",
+                                    branch: "emo",
+                                    image: img("Panic! At The Disco"),
+                                    copy: {
+                                        es: {
+                                            name: "Panic! At The Disco",
+                                            title: "Teatro emo para corazones rotos",
+                                            tooltip: "Cerrar la puerta nunca sonó tan dramático.",
+                                            placeholder: "Panic! At The Disco"
+                                        },
+                                        en: {
+                                            name: "Panic! At The Disco",
+                                            title: "Emo theater for broken hearts",
+                                            tooltip: "Closing the door never sounded so dramatic.",
+                                            placeholder: "Panic! At The Disco"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
