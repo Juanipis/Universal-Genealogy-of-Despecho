@@ -17,6 +17,7 @@ export const artistImages: Record<string, string> = {
   "División Minúscula": "artists/division-minuscula.jpg",
   "Drake": "artists/drake.jpg",
   "Ed Sheeran": "artists/ed-sheeran.jpg",
+  "Fruko y sus Tesos": "artists/fruko-y-sus-tesos.jpg",
   "Ela Taubert": "artists/ela-taubert.jpg",
   "Fall Out Boy": "artists/fall-out-boy.jpg",
   "Feid": "artists/feid.jpg",
@@ -74,6 +75,7 @@ export const artistImages: Record<string, string> = {
   "Shaila Dúrcal": "artists/shaila-durcal.jpg",
   "Shakira": "artists/shakira.jpg",
   "Shawn Mendes": "artists/shawn-mendes.jpg",
+  "Tate McRae": "artists/tate-mcrae.jpg",
   "Taylor Swift": "artists/taylor-swift.jpg",
   "The Strokes": "artists/the-strokes.jpg",
   "The Weeknd": "artists/the-weeknd.jpg",
@@ -83,5 +85,6 @@ export const artistImages: Record<string, string> = {
   "Víctor Manuelle": "artists/victor-manuelle.jpg",
   "Young Miko": "artists/young-miko.jpg",
   "Zoé": "artists/zoe.jpg",
+  "ZAYN": "artists/zayn.jpg",
   "girl in red": "artists/girl-in-red.jpg",
 };
