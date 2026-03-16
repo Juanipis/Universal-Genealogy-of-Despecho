@@ -461,7 +461,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Proved that in Bogotá they also know how to sweat the rhythm with spice.",
                                     placeholder: "La-33"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "fruko",
+                                    branch: "salsa",
+                                    image: img("Fruko y sus Tesos"),
+                                    copy: {
+                                        es: {
+                                            name: "Fruko y sus Tesos",
+                                            title: "El presidiario del despecho",
+                                            tooltip: "Salsa dura para cantarle a la libertad y a la que te dej\xf3 encerrado.",
+                                            placeholder: "Fruko y sus Tesos"
+                                        },
+                                        en: {
+                                            name: "Fruko y sus Tesos",
+                                            title: "The heartbreak inmate",
+                                            tooltip: "Hard salsa to sing to freedom and the one who left you locked up.",
+                                            placeholder: "Fruko y sus Tesos"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -987,7 +1008,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("ZAYN"),
+                            copy: {
+                                es: {
+                                    name: "ZAYN",
+                                    title: "R&B de chico malo incomprendido",
+                                    tooltip: "El que se fue de la boyband porque le dol\xeda mucho el alma y necesitaba cantar en falsete.",
+                                    placeholder: "ZAYN"
+                                },
+                                en: {
+                                    name: "ZAYN",
+                                    title: "Misunderstood bad boy R&B",
+                                    tooltip: "The one who left the boyband because his soul hurt too much and he needed to sing in falsetto.",
+                                    placeholder: "ZAYN"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "tate-mcrae",
+                            branch: "pop",
+                            image: img("Tate McRae"),
+                            copy: {
+                                es: {
+                                    name: "Tate McRae",
+                                    title: "Pop de venganza en crop top",
+                                    tooltip: "Llora en el piso del ba\xf1o, pero con el delineador intacto y lista para el club.",
+                                    placeholder: "Tate McRae"
+                                },
+                                en: {
+                                    name: "Tate McRae",
+                                    title: "Crop top revenge pop",
+                                    tooltip: "Crying on the bathroom floor, but with perfect eyeliner and ready for the club.",
+                                    placeholder: "Tate McRae"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
