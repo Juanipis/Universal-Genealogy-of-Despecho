@@ -1044,7 +1044,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Invented the algorithm for being sad but classy in 2013.",
                                     placeholder: "Lorde"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "mitski",
+                                    branch: "pop",
+                                    image: img("Mitski"),
+                                    copy: {
+                                        es: {
+                                            name: "Mitski",
+                                            title: "El vacío existencial de la Gen Z",
+                                            tooltip: "Canta sobre lavar platos, pero te deja con ganas de llorar por tu ex imaginario.",
+                                            placeholder: "Mitski"
+                                        },
+                                        en: {
+                                            name: "Mitski",
+                                            title: "Gen Z's existential void",
+                                            tooltip: "Sings about washing dishes but makes you want to cry over an imaginary ex.",
+                                            placeholder: "Mitski"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1566,7 +1587,47 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Rockeros de gelatina en el corazón",
+                                                    tooltip: "Empezaron cantando rápido y terminaron llorando lento sobre hoteles en la luna.",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Rockers with jelly hearts",
+                                                    tooltip: "Started out singing fast and ended up crying slowly about hotels on the moon.",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            id: "the-killers",
+                                            branch: "emo",
+                                            image: img("The Killers"),
+                                            copy: {
+                                                es: {
+                                                    name: "The Killers",
+                                                    title: "El himno nacional de la tusa gritada",
+                                                    tooltip: "Nadie sabe qué dice el segundo verso de Mr. Brightside, pero todos la gritan llorando.",
+                                                    placeholder: "The Killers"
+                                                },
+                                                en: {
+                                                    name: "The Killers",
+                                                    title: "The national anthem of screaming heartbreak",
+                                                    tooltip: "No one knows the second verse of Mr. Brightside, but everyone screams it crying.",
+                                                    placeholder: "The Killers"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
