@@ -705,7 +705,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "La maldita primavera",
+                                            tooltip: "Te hace odiar la primavera y al ex al mismo tiempo.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "The damn spring",
+                                            tooltip: "Makes you hate spring and your ex at the same time.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1065,7 +1086,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "La princesa del overthinking",
+                                    tooltip: "Susurros tristes para sobrepensar de madrugada.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "The princess of overthinking",
+                                    tooltip: "Sad whispers for 3 AM overthinking.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1265,7 +1307,28 @@ export const treeData: TreeNode = {
                                     tooltip: "The champion of heartbreak with social media subtweets. If Darío saw his stories, he’d give him some advice.",
                                     placeholder: "Drake"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "post-malone",
+                                    branch: "urb",
+                                    image: img("Post Malone"),
+                                    copy: {
+                                        es: {
+                                            name: "Post Malone",
+                                            title: "Despecho con tatuajes en la cara",
+                                            tooltip: "Llora autotuneado mientras se fuma un cigarro.",
+                                            placeholder: "Post Malone"
+                                        },
+                                        en: {
+                                            name: "Post Malone",
+                                            title: "Heartbreak with face tattoos",
+                                            tooltip: "Cries in autotune while smoking a cigarette.",
+                                            placeholder: "Post Malone"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
