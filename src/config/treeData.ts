@@ -217,7 +217,28 @@ export const treeData: TreeNode = {
                                             tooltip: "The prince who taught you that salsa can also be a subtle cry.",
                                             placeholder: "Luis Enrique"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "ruben-blades",
+                                            branch: "salsa",
+                                            image: img("Rubén Blades"),
+                                            copy: {
+                                                es: {
+                                                    name: "Rubén Blades",
+                                                    title: "Salsa intelectual y melancólica",
+                                                    tooltip: "Llora pero con conciencia social.",
+                                                    placeholder: "Rubén Blades"
+                                                },
+                                                en: {
+                                                    name: "Rubén Blades",
+                                                    title: "Intellectual and melancholic salsa",
+                                                    tooltip: "Cry, but with social awareness.",
+                                                    placeholder: "Rubén Blades"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -867,7 +888,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Turns heartbreak into a glittery, queer rodeo.",
                                     placeholder: "Chappell Roan"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "dua-lipa",
+                                    branch: "pop",
+                                    image: img("Dua Lipa"),
+                                    copy: {
+                                        es: {
+                                            name: "Dua Lipa",
+                                            title: "Pop de discoteca para superar al ex",
+                                            tooltip: "Nuevas reglas para no volver a contestarle.",
+                                            placeholder: "Dua Lipa"
+                                        },
+                                        en: {
+                                            name: "Dua Lipa",
+                                            title: "Club pop to get over your ex",
+                                            tooltip: "New rules to never answer his calls again.",
+                                            placeholder: "Dua Lipa"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1688,7 +1730,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Closing the door never sounded so dramatic.",
                                             placeholder: "Panic! At The Disco"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "avril-lavigne",
+                                            branch: "emo",
+                                            image: img("Avril Lavigne"),
+                                            copy: {
+                                                es: {
+                                                    name: "Avril Lavigne",
+                                                    title: "Princesa del pop punk triste",
+                                                    tooltip: "Para cuando el sk8er boy te rompe el corazón.",
+                                                    placeholder: "Avril Lavigne"
+                                                },
+                                                en: {
+                                                    name: "Avril Lavigne",
+                                                    title: "Sad pop punk princess",
+                                                    tooltip: "For when the sk8er boy breaks your heart.",
+                                                    placeholder: "Avril Lavigne"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
