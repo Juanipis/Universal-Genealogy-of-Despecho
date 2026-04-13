@@ -297,7 +297,28 @@ export const treeData: TreeNode = {
                                             tooltip: "He took bachata from the backyard to stadiums, with lyrics that mix heartbreak and soap opera drama.",
                                             placeholder: "Romeo Santos"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "aventura",
+                                            branch: "salsa",
+                                            image: img("Aventura"),
+                                            copy: {
+                                                es: {
+                                                    name: "Aventura",
+                                                    title: "Bachata de lágrimas y obsesión",
+                                                    tooltip: "Los reyes originales del lloriqueo bachatero antes de que Romeo se volviera solista.",
+                                                    placeholder: "Aventura"
+                                                },
+                                                en: {
+                                                    name: "Aventura",
+                                                    title: "Bachata of tears and obsession",
+                                                    tooltip: "The original kings of bachata weeping before Romeo went solo.",
+                                                    placeholder: "Aventura"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -907,7 +928,28 @@ export const treeData: TreeNode = {
                                     tooltip: "The one who makes you cry in the pub while you sip a lukewarm pint.",
                                     placeholder: "Ed Sheeran"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "charlie-puth",
+                                    branch: "pop",
+                                    image: img("Charlie Puth"),
+                                    copy: {
+                                        es: {
+                                            name: "Charlie Puth",
+                                            title: "Desamor con tono perfecto",
+                                            tooltip: "Llora pero se asegura de que cada lágrima caiga en la nota correcta.",
+                                            placeholder: "Charlie Puth"
+                                        },
+                                        en: {
+                                            name: "Charlie Puth",
+                                            title: "Perfect pitch heartbreak",
+                                            tooltip: "Cries but makes sure every tear falls on the right note.",
+                                            placeholder: "Charlie Puth"
+                                        }
+                                    }
+                                }
+                            ]
                         },
                         {
                             id: "shawn-mendes",
@@ -1693,6 +1735,25 @@ export const treeData: TreeNode = {
                             ]
                         }
                     ]
+                },
+                {
+                    id: "arctic-monkeys",
+                    branch: "emo",
+                    image: img("Arctic Monkeys"),
+                    copy: {
+                        es: {
+                            name: "Arctic Monkeys",
+                            title: "Desamor británico con chamarra de cuero",
+                            tooltip: "Empezaron rompiendo guitarras y terminaron rompiendo corazones en hoteles espaciales.",
+                            placeholder: "Arctic Monkeys"
+                        },
+                        en: {
+                            name: "Arctic Monkeys",
+                            title: "British heartbreak in a leather jacket",
+                            tooltip: "Started breaking guitars, ended up breaking hearts in space hotels.",
+                            placeholder: "Arctic Monkeys"
+                        }
+                    }
                 }
             ]
         }
