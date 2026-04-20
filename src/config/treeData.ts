@@ -358,7 +358,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Keep it low, heartbreak is danced tight.",
                                             placeholder: "Tito Rojas"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "tito-nieves",
+                                            branch: "salsa",
+                                            image: img("Tito Nieves"),
+                                            copy: {
+                                                es: {
+                                                    name: "Tito Nieves",
+                                                    title: "El Pavarotti de la Salsa",
+                                                    tooltip: "Fabricando fantasías para calmar el despecho.",
+                                                    placeholder: "Tito Nieves"
+                                                },
+                                                en: {
+                                                    name: "Tito Nieves",
+                                                    title: "The Pavarotti of Salsa",
+                                                    tooltip: "Fabricating fantasies to soothe heartbreak.",
+                                                    placeholder: "Tito Nieves"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -705,7 +726,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "La voz del drama ochentero",
+                                            tooltip: "Maldita primavera, maldito despecho.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "The voice of 80s drama",
+                                            tooltip: "Damn spring, damn heartbreak.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1143,7 +1185,28 @@ export const treeData: TreeNode = {
                                             tooltip: "His voice sounds like he already drank all the liquor on the table and will still sing to you beautifully.",
                                             placeholder: "Manuel Turizo"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "sebastian-yatra",
+                                            branch: "urb",
+                                            image: img("Sebastián Yatra"),
+                                            copy: {
+                                                es: {
+                                                    name: "Sebastián Yatra",
+                                                    title: "Balada pop con tenis",
+                                                    tooltip: "Llora por un amor de verano mientras graba un TikTok.",
+                                                    placeholder: "Sebastián Yatra"
+                                                },
+                                                en: {
+                                                    name: "Sebastián Yatra",
+                                                    title: "Pop ballad with sneakers",
+                                                    tooltip: "Cries over a summer love while filming a TikTok.",
+                                                    placeholder: "Sebastián Yatra"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
