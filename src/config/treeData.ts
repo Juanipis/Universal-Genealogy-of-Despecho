@@ -705,7 +705,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "amanda-miguel",
+                                    branch: "mex",
+                                    image: img("Amanda Miguel"),
+                                    copy: {
+                                        es: {
+                                            name: "Amanda Miguel",
+                                            title: "Gritos de dolor con pelo rizado",
+                                            tooltip: "Cuando la traición duele tanto que tienes que gritarlo a los cuatro vientos.",
+                                            placeholder: "Amanda Miguel"
+                                        },
+                                        en: {
+                                            name: "Amanda Miguel",
+                                            title: "Cries of pain with curly hair",
+                                            tooltip: "When betrayal hurts so much you have to scream it from the rooftops.",
+                                            placeholder: "Amanda Miguel"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1006,7 +1027,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Tusa con oído absoluto",
+                                    tooltip: "Sabe exactamente en qué nota musical le rompieron el corazón.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Heartbreak with perfect pitch",
+                                    tooltip: "He knows exactly in what musical note his heart was broken.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "Llorar en el cuarto de tu infancia",
+                                    tooltip: "Despecho que suena a diario íntimo de adolescente triste.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "Crying in your childhood bedroom",
+                                    tooltip: "Heartbreak that sounds like a sad teenager's diary.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
