@@ -1266,6 +1266,25 @@ export const treeData: TreeNode = {
                                     placeholder: "Drake"
                                 }
                             }
+                        },
+                        {
+                            id: "arcangel",
+                            branch: "urb",
+                            image: img("Arcangel"),
+                            copy: {
+                                es: {
+                                    name: "Arcángel",
+                                    title: "Reguetón dolido de la vieja guardia",
+                                    tooltip: "Antes de facturar, se desahogaba en mixtapes.",
+                                    placeholder: "Arcángel"
+                                },
+                                en: {
+                                    name: "Arcangel",
+                                    title: "Old-school reggaeton heartbreak",
+                                    tooltip: "Before invoices, he vented on mixtapes.",
+                                    placeholder: "Arcangel"
+                                }
+                            }
                         }
                     ]
                 },
@@ -1505,7 +1524,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Music for staring at the ceiling and wondering why 2016 still hurts.",
                                             placeholder: "Cigarettes After Sex"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "beach-house",
+                                            branch: "emo",
+                                            image: img("Beach House"),
+                                            copy: {
+                                                es: {
+                                                    name: "Beach House",
+                                                    title: "Nostalgia en cámara lenta",
+                                                    tooltip: "Para llorar viendo por la ventana del bus en un día lluvioso.",
+                                                    placeholder: "Beach House"
+                                                },
+                                                en: {
+                                                    name: "Beach House",
+                                                    title: "Slow-motion nostalgia",
+                                                    tooltip: "For crying while looking out the bus window on a rainy day.",
+                                                    placeholder: "Beach House"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1566,7 +1606,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "the-1975",
+                                            branch: "emo",
+                                            image: img("The 1975"),
+                                            copy: {
+                                                es: {
+                                                    name: "The 1975",
+                                                    title: "Desamor con sintetizadores 80s",
+                                                    tooltip: "Llorar pero con mucho estilo estético.",
+                                                    placeholder: "The 1975"
+                                                },
+                                                en: {
+                                                    name: "The 1975",
+                                                    title: "Heartbreak with 80s synths",
+                                                    tooltip: "Crying but with a lot of aesthetic style.",
+                                                    placeholder: "The 1975"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
