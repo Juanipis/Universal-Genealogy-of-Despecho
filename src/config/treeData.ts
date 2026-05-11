@@ -358,7 +358,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Keep it low, heartbreak is danced tight.",
                                             placeholder: "Tito Rojas"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "tito-nieves",
+                                            branch: "salsa",
+                                            image: img("Tito Nieves"),
+                                            copy: {
+                                                es: {
+                                                    name: "Tito Nieves",
+                                                    title: "El Pavarotti de la Salsa",
+                                                    tooltip: "Llorarás de emoción con cada nota que suelta.",
+                                                    placeholder: "Tito Nieves"
+                                                },
+                                                en: {
+                                                    name: "Tito Nieves",
+                                                    title: "The Pavarotti of Salsa",
+                                                    tooltip: "You'll cry with emotion with every note he hits.",
+                                                    placeholder: "Tito Nieves"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -825,7 +846,28 @@ export const treeData: TreeNode = {
                                             tooltip: "If Darío had written songs locked in a Scandinavian bedroom, this would be him.",
                                             placeholder: "girl in red",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "clairo",
+                                            branch: "pop",
+                                            image: img("Clairo"),
+                                            copy: {
+                                                es: {
+                                                    name: "Clairo",
+                                                    title: "Pop lo-fi para corazones tiernos",
+                                                    tooltip: "Canta bajito para no despertar a la tusa.",
+                                                    placeholder: "Clairo"
+                                                },
+                                                en: {
+                                                    name: "Clairo",
+                                                    title: "Lo-fi pop for tender hearts",
+                                                    tooltip: "Sings softly to avoid waking up the heartbreak.",
+                                                    placeholder: "Clairo"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1505,7 +1547,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Music for staring at the ceiling and wondering why 2016 still hurts.",
                                             placeholder: "Cigarettes After Sex"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "beach-house",
+                                            branch: "emo",
+                                            image: img("Beach House"),
+                                            copy: {
+                                                es: {
+                                                    name: "Beach House",
+                                                    title: "Dream pop melancólico",
+                                                    tooltip: "Para flotar en el espacio mientras piensas en tu ex.",
+                                                    placeholder: "Beach House"
+                                                },
+                                                en: {
+                                                    name: "Beach House",
+                                                    title: "Melancholic dream pop",
+                                                    tooltip: "To float in space while thinking about your ex.",
+                                                    placeholder: "Beach House"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
