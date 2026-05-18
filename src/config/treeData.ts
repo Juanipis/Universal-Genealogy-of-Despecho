@@ -136,7 +136,28 @@ export const treeData: TreeNode = {
                                             tooltip: "I drank your memory to forget you, but now I remember you drunk.",
                                             placeholder: "Galy Galiano"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "pipe-bueno",
+                                            branch: "mex",
+                                            image: img("Pipe Bueno"),
+                                            copy: {
+                                                es: {
+                                                    name: "Pipe Bueno",
+                                                    title: "El heredero pop del guaro",
+                                                    tooltip: "Trajo el despecho a la era de Instagram.",
+                                                    placeholder: "Pipe Bueno"
+                                                },
+                                                en: {
+                                                    name: "Pipe Bueno",
+                                                    title: "The pop heir of aguardiente",
+                                                    tooltip: "Brought heartbreak to the Instagram era.",
+                                                    placeholder: "Pipe Bueno"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -358,7 +379,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Keep it low, heartbreak is danced tight.",
                                             placeholder: "Tito Rojas"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "eddie-santiago",
+                                            branch: "salsa",
+                                            image: img("Eddie Santiago"),
+                                            copy: {
+                                                es: {
+                                                    name: "Eddie Santiago",
+                                                    title: "Salsa erótica y llorona",
+                                                    tooltip: "Hizo que el despecho se pudiera bailar muy pegadito.",
+                                                    placeholder: "Eddie Santiago"
+                                                },
+                                                en: {
+                                                    name: "Eddie Santiago",
+                                                    title: "Erotic and weeping salsa",
+                                                    tooltip: "Made it possible to dance to heartbreak really close.",
+                                                    placeholder: "Eddie Santiago"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1446,7 +1488,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
                                     placeholder: "División Minúscula"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "allison",
+                                    branch: "emo",
+                                    image: img("Allison"),
+                                    copy: {
+                                        es: {
+                                            name: "Allison",
+                                            title: "Pop punk de secundaria",
+                                            tooltip: "Para cuando te dejaban por MSN Messenger.",
+                                            placeholder: "Allison"
+                                        },
+                                        en: {
+                                            name: "Allison",
+                                            title: "High school pop punk",
+                                            tooltip: "For when you got dumped over MSN Messenger.",
+                                            placeholder: "Allison"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
