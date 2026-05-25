@@ -987,7 +987,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("Zayn"),
+                            copy: {
+                                es: {
+                                    name: "Zayn",
+                                    title: "R&B llorón post-boyband",
+                                    tooltip: "Abandonó la banda para sufrir en falsete.",
+                                    placeholder: "Zayn"
+                                },
+                                en: {
+                                    name: "Zayn",
+                                    title: "Post-boyband crying R&B",
+                                    tooltip: "Left the band to suffer in falsetto.",
+                                    placeholder: "Zayn"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1006,7 +1027,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Drama con oído absoluto",
+                                    tooltip: "Sabe exactamente en qué nota musical le rompieron el corazón.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Perfect-pitch drama",
+                                    tooltip: "Knows the exact musical note where his heart broke.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "tate-mcrae",
+                            branch: "pop",
+                            image: img("Tate McRae"),
+                            copy: {
+                                es: {
+                                    name: "Tate McRae",
+                                    title: "Coreografía del despecho",
+                                    tooltip: "Llora pero sin perder el paso de baile.",
+                                    placeholder: "Tate McRae"
+                                },
+                                en: {
+                                    name: "Tate McRae",
+                                    title: "Heartbreak choreography",
+                                    tooltip: "Cries without missing a dance step.",
+                                    placeholder: "Tate McRae"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
