@@ -84,4 +84,7 @@ export const artistImages: Record<string, string> = {
   "Young Miko": "artists/young-miko.jpg",
   "Zoé": "artists/zoe.jpg",
   "girl in red": "artists/girl-in-red.jpg",
+  "Zayn": "artists/zayn.jpg",
+  "Tate McRae": "artists/tate-mcrae.jpg",
+  "Charlie Puth": "artists/charlie-puth.jpg"
 };
