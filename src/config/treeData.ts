@@ -461,7 +461,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Proved that in Bogotá they also know how to sweat the rhythm with spice.",
                                     placeholder: "La-33"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "tromboranga",
+                                    branch: "salsa",
+                                    image: img("Tromboranga"),
+                                    copy: {
+                                        es: {
+                                            name: "Tromboranga",
+                                            title: "Salsa brava contemporánea",
+                                            tooltip: "Herederos del guaguancó pesado para llorar bailando.",
+                                            placeholder: "Tromboranga"
+                                        },
+                                        en: {
+                                            name: "Tromboranga",
+                                            title: "Contemporary heavy salsa",
+                                            tooltip: "Heirs of heavy guaguancó to cry while dancing.",
+                                            placeholder: "Tromboranga"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -1006,7 +1027,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Pop con oído absoluto y el corazón roto",
+                                    tooltip: "Te dice exactamente en qué nota está tu llanto.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Perfect pitch pop with a broken heart",
+                                    tooltip: "He tells you exactly what note your crying is in.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1446,7 +1488,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
                                     placeholder: "División Minúscula"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "allison",
+                                    branch: "emo",
+                                    image: img("Allison"),
+                                    copy: {
+                                        es: {
+                                            name: "Allison",
+                                            title: "Pop punk de secundaria",
+                                            tooltip: "Para cuando te dejaron en el receso.",
+                                            placeholder: "Allison"
+                                        },
+                                        en: {
+                                            name: "Allison",
+                                            title: "High school pop punk",
+                                            tooltip: "For when you got dumped during recess.",
+                                            placeholder: "Allison"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
