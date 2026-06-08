@@ -705,7 +705,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuridia",
+                                    branch: "mex",
+                                    image: img("Yuridia"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuridia",
+                                            title: "La voz desgarradora de la nueva guardia",
+                                            tooltip: "Baladas pop-rancheras que te hacen sentir un divorcio aunque estés soltero.",
+                                            placeholder: "Yuridia"
+                                        },
+                                        en: {
+                                            name: "Yuridia",
+                                            title: "The heartbreaking voice of the new guard",
+                                            tooltip: "Pop-ranchera ballads that make you feel a divorce even if you are single.",
+                                            placeholder: "Yuridia"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1006,7 +1027,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Despecho con oído absoluto",
+                                    tooltip: "Llora en notas perfectas por notas de voz.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Heartbreak with perfect pitch",
+                                    tooltip: "Cries in perfect notes over voice notes.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1446,7 +1488,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
                                     placeholder: "División Minúscula"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "allison",
+                                    branch: "emo",
+                                    image: img("Allison"),
+                                    copy: {
+                                        es: {
+                                            name: "Allison",
+                                            title: "Pop punk para extrañar en MySpace",
+                                            tooltip: "La banda sonora oficial de cuando te dejaban en visto en MSN Messenger.",
+                                            placeholder: "Allison"
+                                        },
+                                        en: {
+                                            name: "Allison",
+                                            title: "Pop punk for missing you on MySpace",
+                                            tooltip: "The official soundtrack for when you were left on read on MSN Messenger.",
+                                            placeholder: "Allison"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
