@@ -461,7 +461,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Proved that in Bogotá they also know how to sweat the rhythm with spice.",
                                     placeholder: "La-33"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "tromboranga",
+                                    branch: "salsa",
+                                    image: img("Tromboranga"),
+                                    copy: {
+                                        es: {
+                                            name: "Tromboranga",
+                                            title: "Salsa brava pa' llorar bailando",
+                                            tooltip: "Trombones que suenan a puñalada en el corazón.",
+                                            placeholder: "Tromboranga"
+                                        },
+                                        en: {
+                                            name: "Tromboranga",
+                                            title: "Hard salsa to cry while dancing",
+                                            tooltip: "Trombones that sound like a stab in the heart.",
+                                            placeholder: "Tromboranga"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -705,7 +726,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "La maldita primavera en loop",
+                                            tooltip: "Un drama ochentero que nunca pasa de moda.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "The damn spring on loop",
+                                            tooltip: "An 80s drama that never goes out of style.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -987,7 +1029,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "niall-horan",
+                            branch: "pop",
+                            image: img("Niall Horan"),
+                            copy: {
+                                es: {
+                                    name: "Niall Horan",
+                                    title: "Pop acústico de corazones rotos",
+                                    tooltip: "Te rompe el corazón con guitarra y sonrisa.",
+                                    placeholder: "Niall Horan"
+                                },
+                                en: {
+                                    name: "Niall Horan",
+                                    title: "Acoustic heartbreak pop",
+                                    tooltip: "Breaks your heart with a guitar and a smile.",
+                                    placeholder: "Niall Horan"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
