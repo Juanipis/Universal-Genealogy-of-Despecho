@@ -358,7 +358,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Keep it low, heartbreak is danced tight.",
                                             placeholder: "Tito Rojas"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "eddie-santiago",
+                                            branch: "salsa",
+                                            image: img("Eddie Santiago"),
+                                            copy: {
+                                                es: {
+                                                    name: "Eddie Santiago",
+                                                    title: "Salsa erótica para el corazón roto",
+                                                    tooltip: "Que locura enamorarme de ti cuando ya no estas.",
+                                                    placeholder: "Eddie Santiago"
+                                                },
+                                                en: {
+                                                    name: "Eddie Santiago",
+                                                    title: "Erotic salsa for the broken heart",
+                                                    tooltip: "What madness to fall in love with you when you're gone.",
+                                                    placeholder: "Eddie Santiago"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -579,7 +600,28 @@ export const treeData: TreeNode = {
                                                     tooltip: "Lyrics for crying over your ex while driving 80 mph.",
                                                     placeholder: "Junior H"
                                                 }
-                                            }
+                                            },
+                                            children: [
+                                                {
+                                                    id: "fuerza-regida",
+                                                    branch: "mex",
+                                                    image: img("Fuerza Regida"),
+                                                    copy: {
+                                                        es: {
+                                                            name: "Fuerza Regida",
+                                                            title: "Corridos tumbados y desmadre",
+                                                            tooltip: "Para llorar pistear y olvidar en una trocona.",
+                                                            placeholder: "Fuerza Regida"
+                                                        },
+                                                        en: {
+                                                            name: "Fuerza Regida",
+                                                            title: "Corridos tumbados and chaos",
+                                                            tooltip: "To cry, drink, and forget in a big truck.",
+                                                            placeholder: "Fuerza Regida"
+                                                        }
+                                                    }
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -1324,7 +1366,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Lyrics that make you miss your ex.",
                                             placeholder: "Rels B"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "quevedo",
+                                            branch: "urb",
+                                            image: img("Quevedo"),
+                                            copy: {
+                                                es: {
+                                                    name: "Quevedo",
+                                                    title: "Autotune y despecho canario",
+                                                    tooltip: "Quédate que la noche sin ti duele.",
+                                                    placeholder: "Quevedo"
+                                                },
+                                                en: {
+                                                    name: "Quevedo",
+                                                    title: "Autotune and Canarian heartbreak",
+                                                    tooltip: "Stay, because the night without you hurts.",
+                                                    placeholder: "Quevedo"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
