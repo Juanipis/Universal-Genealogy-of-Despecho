@@ -987,7 +987,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("ZAYN"),
+                            copy: {
+                                es: {
+                                    name: "ZAYN",
+                                    title: "R&B melancólico",
+                                    tooltip: "El primero en irse para llorar en falsete sobre beats oscuros.",
+                                    placeholder: "ZAYN"
+                                },
+                                en: {
+                                    name: "ZAYN",
+                                    title: "Melancholic R&B",
+                                    tooltip: "The first to leave so he could cry in falsetto over dark beats.",
+                                    placeholder: "ZAYN"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1006,7 +1027,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Despecho con tono perfecto",
+                                    tooltip: "Llora y te dice exactamente en qué nota está llorando.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Perfect pitch heartbreak",
+                                    tooltip: "Cries and tells you exactly what note he is crying in.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1446,7 +1488,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
                                     placeholder: "División Minúscula"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "allison",
+                                    branch: "emo",
+                                    image: img("Allison"),
+                                    copy: {
+                                        es: {
+                                            name: "Allison",
+                                            title: "Pop punk para extrañarla",
+                                            tooltip: "Guitarras rápidas para llorar en el skatepark.",
+                                            placeholder: "Allison"
+                                        },
+                                        en: {
+                                            name: "Allison",
+                                            title: "Pop punk to miss her",
+                                            tooltip: "Fast guitars for crying at the skatepark.",
+                                            placeholder: "Allison"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
