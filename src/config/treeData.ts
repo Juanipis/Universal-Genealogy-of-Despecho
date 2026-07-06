@@ -136,7 +136,28 @@ export const treeData: TreeNode = {
                                             tooltip: "I drank your memory to forget you, but now I remember you drunk.",
                                             placeholder: "Galy Galiano"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "el-charrito-negro",
+                                            branch: "mex",
+                                            image: img("El Charrito Negro"),
+                                            copy: {
+                                                es: {
+                                                    name: "El Charrito Negro",
+                                                    title: "Corazón endurecido",
+                                                    tooltip: "Letras que raspan la garganta con cada trago.",
+                                                    placeholder: "El Charrito Negro"
+                                                },
+                                                en: {
+                                                    name: "El Charrito Negro",
+                                                    title: "Hardened heart",
+                                                    tooltip: "Lyrics that scratch your throat with every sip.",
+                                                    placeholder: "El Charrito Negro"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -358,7 +379,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Keep it low, heartbreak is danced tight.",
                                             placeholder: "Tito Rojas"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "eddie-santiago",
+                                            branch: "salsa",
+                                            image: img("Eddie Santiago"),
+                                            copy: {
+                                                es: {
+                                                    name: "Eddie Santiago",
+                                                    title: "Salsa romántica y lágrimas",
+                                                    tooltip: "Llora y baila al mismo tiempo, el rey de la salsa sensual.",
+                                                    placeholder: "Eddie Santiago"
+                                                },
+                                                en: {
+                                                    name: "Eddie Santiago",
+                                                    title: "Romantic salsa and tears",
+                                                    tooltip: "Cry and dance at the same time, the king of sensual salsa.",
+                                                    placeholder: "Eddie Santiago"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -987,7 +1029,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "niall-horan",
+                            branch: "pop",
+                            image: img("Niall Horan"),
+                            copy: {
+                                es: {
+                                    name: "Niall Horan",
+                                    title: "Pop folk para corazones rotos",
+                                    tooltip: "Guitarras acústicas y lágrimas irlandesas.",
+                                    placeholder: "Niall Horan"
+                                },
+                                en: {
+                                    name: "Niall Horan",
+                                    title: "Pop folk for broken hearts",
+                                    tooltip: "Acoustic guitars and Irish tears.",
+                                    placeholder: "Niall Horan"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
