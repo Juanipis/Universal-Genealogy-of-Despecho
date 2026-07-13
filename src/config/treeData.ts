@@ -745,7 +745,28 @@ export const treeData: TreeNode = {
                                     tooltip: "The daughter who sings to her mother and to heartbreak.",
                                     placeholder: "Shaila Dúrcal"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "angela-aguilar",
+                                    branch: "mex",
+                                    image: img("Ángela Aguilar"),
+                                    copy: {
+                                        es: {
+                                            name: "Ángela Aguilar",
+                                            title: "La princesa del mariachi",
+                                            tooltip: "Llora pero con vestidos tradicionales impecables.",
+                                            placeholder: "Ángela Aguilar"
+                                        },
+                                        en: {
+                                            name: "Ángela Aguilar",
+                                            title: "The princess of mariachi",
+                                            tooltip: "Cries but in flawless traditional dresses.",
+                                            placeholder: "Ángela Aguilar"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -987,7 +1008,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("Zayn"),
+                            copy: {
+                                es: {
+                                    name: "Zayn",
+                                    title: "R&B de chico malo triste",
+                                    tooltip: "Dejó la boyband para sufrir con más estilo.",
+                                    placeholder: "Zayn"
+                                },
+                                en: {
+                                    name: "Zayn",
+                                    title: "Sad bad boy R&B",
+                                    tooltip: "Left the boyband to suffer with more style.",
+                                    placeholder: "Zayn"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "lizzie-mcalpine",
+                            branch: "pop",
+                            image: img("Lizzy McAlpine"),
+                            copy: {
+                                es: {
+                                    name: "Lizzy McAlpine",
+                                    title: "Corazones rotos acústicos",
+                                    tooltip: "Llorando en la alfombra con una guitarra acústica.",
+                                    placeholder: "Lizzy McAlpine"
+                                },
+                                en: {
+                                    name: "Lizzy McAlpine",
+                                    title: "Acoustic broken hearts",
+                                    tooltip: "Crying on the floorboards with an acoustic guitar.",
+                                    placeholder: "Lizzy McAlpine"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
