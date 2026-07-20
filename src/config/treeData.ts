@@ -987,7 +987,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("ZAYN"),
+                            copy: {
+                                es: {
+                                    name: "ZAYN",
+                                    title: "R&B de chico malo solitario",
+                                    tooltip: "Dejó la boyband para poder sufrir en notas altas y falsetes.",
+                                    placeholder: "ZAYN"
+                                },
+                                en: {
+                                    name: "ZAYN",
+                                    title: "Loner bad boy R&B",
+                                    tooltip: "Left the boyband so he could suffer in high notes and falsettos.",
+                                    placeholder: "ZAYN"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1006,7 +1027,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Pop perfecto con corazón roto",
+                                    tooltip: "Tiene oído absoluto para las notas y para el despecho.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Perfect pitch heartbreak",
+                                    tooltip: "Absolute pitch for notes and heartbreak.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "Pop de diario íntimo",
+                                    tooltip: "Canta susurradas verdades incómodas sobre extrañar a alguien.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "Diary entry pop",
+                                    tooltip: "Sings whispered uncomfortable truths about missing someone.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
