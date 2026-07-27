@@ -358,7 +358,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Keep it low, heartbreak is danced tight.",
                                             placeholder: "Tito Rojas"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "tony-vega",
+                                            branch: "salsa",
+                                            image: img("Tony Vega"),
+                                            copy: {
+                                                es: {
+                                                    name: "Tony Vega",
+                                                    title: "Salsa romántica para sufrir bailando",
+                                                    tooltip: "Suave, elegante, y directo al orgullo herido.",
+                                                    placeholder: "Tony Vega"
+                                                },
+                                                en: {
+                                                    name: "Tony Vega",
+                                                    title: "Romantic salsa for dancing in pain",
+                                                    tooltip: "Smooth, elegant, and straight to wounded pride.",
+                                                    placeholder: "Tony Vega"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -705,7 +726,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "Despecho ochentero y lentejuelas",
+                                            tooltip: "Para gritar 'Maldita primavera' con tres copas de más.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "80s heartbreak and sequins",
+                                            tooltip: "For screaming 'Maldita primavera' three drinks in.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "tate-mcrae",
+                            branch: "pop",
+                            image: img("Tate McRae"),
+                            copy: {
+                                es: {
+                                    name: "Tate McRae",
+                                    title: "Pop triste de chica fitness",
+                                    tooltip: "Baila como si el mundo se fuera a acabar, llora como si ya hubiera pasado.",
+                                    placeholder: "Tate McRae"
+                                },
+                                en: {
+                                    name: "Tate McRae",
+                                    title: "Sad fitness girl pop",
+                                    tooltip: "Dances like the world is ending, cries like it already did.",
+                                    placeholder: "Tate McRae"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
