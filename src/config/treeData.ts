@@ -136,7 +136,28 @@ export const treeData: TreeNode = {
                                             tooltip: "I drank your memory to forget you, but now I remember you drunk.",
                                             placeholder: "Galy Galiano"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "jessi-uribe",
+                                            branch: "mex",
+                                            image: img("Jessi Uribe"),
+                                            copy: {
+                                                es: {
+                                                    name: "Jessi Uribe",
+                                                    title: "Despecho popular contemporáneo",
+                                                    tooltip: "Dulce pecado que se canta a grito herido.",
+                                                    placeholder: "Jessi Uribe"
+                                                },
+                                                en: {
+                                                    name: "Jessi Uribe",
+                                                    title: "Contemporary popular heartbreak",
+                                                    tooltip: "Sweet sin sung at the top of your lungs.",
+                                                    placeholder: "Jessi Uribe"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -987,7 +1008,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "niall-horan",
+                            branch: "pop",
+                            image: img("Niall Horan"),
+                            copy: {
+                                es: {
+                                    name: "Niall Horan",
+                                    title: "Melancolía pop irlandesa",
+                                    tooltip: "Otro que salió de One Direction buscando su propio camino de tusa.",
+                                    placeholder: "Niall Horan"
+                                },
+                                en: {
+                                    name: "Niall Horan",
+                                    title: "Irish pop melancholy",
+                                    tooltip: "Another one out of One Direction seeking his own heartbreak path.",
+                                    placeholder: "Niall Horan"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1065,7 +1107,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "tate-mcrae",
+                            branch: "pop",
+                            image: img("Tate McRae"),
+                            copy: {
+                                es: {
+                                    name: "Tate McRae",
+                                    title: "Coreografías para llorar",
+                                    tooltip: "La evolución de llorar en la cama a llorar bailando frente al espejo.",
+                                    placeholder: "Tate McRae"
+                                },
+                                en: {
+                                    name: "Tate McRae",
+                                    title: "Choreographies for crying",
+                                    tooltip: "The evolution from crying in bed to crying while dancing in front of the mirror.",
+                                    placeholder: "Tate McRae"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
