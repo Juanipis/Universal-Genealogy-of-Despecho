@@ -220,6 +220,25 @@ export const treeData: TreeNode = {
                                     }
                                 }
                             ]
+                        },
+                        {
+                            id: "eddie-santiago",
+                            branch: "salsa",
+                            image: img("Eddie Santiago"),
+                            copy: {
+                                es: {
+                                    name: "Eddie Santiago",
+                                    title: "Salsa romántica para cortarse las venas",
+                                    tooltip: "Lluvia de lágrimas en cada coro.",
+                                    placeholder: "Eddie Santiago"
+                                },
+                                en: {
+                                    name: "Eddie Santiago",
+                                    title: "Romantic salsa to bleed for",
+                                    tooltip: "A rain of tears in every chorus.",
+                                    placeholder: "Eddie Santiago"
+                                }
+                            }
                         }
                     ]
                 },
@@ -1006,7 +1025,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "El nerd del despecho perfecto",
+                                    tooltip: "Llora con afinación perfecta y sintetizadores.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "The perfect pitch heartbreaker",
+                                    tooltip: "Cries in perfect pitch and synthesizers.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1065,7 +1105,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "Lágrimas en la libreta de apuntes",
+                                    tooltip: "Cuando llorar en voz baja no es suficiente.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "Tears in the notebook",
+                                    tooltip: "When whispering your heartbreak isn't enough.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
