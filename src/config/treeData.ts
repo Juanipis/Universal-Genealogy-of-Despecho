@@ -986,8 +986,29 @@ export const treeData: TreeNode = {
                             title: "Boyband graduate in therapy",
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
-                        },
-                    }
+                        }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("ZAYN"),
+                            copy: {
+                                es: {
+                                    name: "ZAYN",
+                                    title: "R&B de chico malo triste",
+                                    tooltip: "Salió de la boyband directo a llorar en falsete.",
+                                    placeholder: "ZAYN"
+                                },
+                                en: {
+                                    name: "ZAYN",
+                                    title: "Sad bad boy R&B",
+                                    tooltip: "Left the boyband straight to cry in falsetto.",
+                                    placeholder: "ZAYN"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1005,8 +1026,29 @@ export const treeData: TreeNode = {
                             title: "Romantic willing to jump",
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
-                        },
-                    }
+                        }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "El pitch perfecto para llorar",
+                                    tooltip: "Si el despecho tuviera tono perfecto, sonaría a él.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "The perfect pitch for crying",
+                                    tooltip: "If heartbreak had perfect pitch, it would sound like him.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
@@ -1064,8 +1106,29 @@ export const treeData: TreeNode = {
                             title: "Whispered heartbreak",
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
-                        },
-                    }
+                        }
+                    },
+                    children: [
+                        {
+                            id: "tate-mcrae",
+                            branch: "pop",
+                            image: img("Tate McRae"),
+                            copy: {
+                                es: {
+                                    name: "Tate McRae",
+                                    title: "Pop triste para bailar",
+                                    tooltip: "Llorando en el club pero con coreografía.",
+                                    placeholder: "Tate McRae"
+                                },
+                                en: {
+                                    name: "Tate McRae",
+                                    title: "Sad pop for dancing",
+                                    tooltip: "Crying in the club but with choreography.",
+                                    placeholder: "Tate McRae"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
