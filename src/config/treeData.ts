@@ -705,7 +705,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuridia",
+                                    branch: "mex",
+                                    image: img("Yuridia"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuridia",
+                                            title: "La academia del despecho",
+                                            tooltip: "Canta desde el alma con la potencia de mil señoras dolidas.",
+                                            placeholder: "Yuridia"
+                                        },
+                                        en: {
+                                            name: "Yuridia",
+                                            title: "The heartbreak academy",
+                                            tooltip: "Sings from the soul with the power of a thousand heartbroken ladies.",
+                                            placeholder: "Yuridia"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1065,7 +1086,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "finneas",
+                            branch: "pop",
+                            image: img("Finneas"),
+                            copy: {
+                                es: {
+                                    name: "Finneas",
+                                    title: "El hermano del susurro",
+                                    tooltip: "Produce y sufre en la misma frecuencia baja que su hermana.",
+                                    placeholder: "Finneas"
+                                },
+                                en: {
+                                    name: "Finneas",
+                                    title: "The whisper's brother",
+                                    tooltip: "Produces and suffers in the same low frequency as his sister.",
+                                    placeholder: "Finneas"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1688,7 +1730,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Closing the door never sounded so dramatic.",
                                             placeholder: "Panic! At The Disco"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "pierce-the-veil",
+                                            branch: "emo",
+                                            image: img("Pierce The Veil"),
+                                            copy: {
+                                                es: {
+                                                    name: "Pierce The Veil",
+                                                    title: "Gritos post-hardcore",
+                                                    tooltip: "Cuando cerrar la puerta no es suficiente, hay que romperla a gritos.",
+                                                    placeholder: "Pierce The Veil"
+                                                },
+                                                en: {
+                                                    name: "Pierce The Veil",
+                                                    title: "Post-hardcore screams",
+                                                    tooltip: "When closing the door isn't enough, you have to break it down screaming.",
+                                                    placeholder: "Pierce The Veil"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
