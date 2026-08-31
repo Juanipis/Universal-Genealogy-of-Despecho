@@ -705,7 +705,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "La reina del drama ochentero",
+                                            tooltip: "El apagón no ocultó su dolor.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "Queen of 80s drama",
+                                            tooltip: "The blackout couldn't hide her pain.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -987,7 +1008,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "zayn",
+                            branch: "pop",
+                            image: img("Zayn"),
+                            copy: {
+                                es: {
+                                    name: "Zayn",
+                                    title: "Pop de escape y corazones rotos",
+                                    tooltip: "Dejó la banda, pero no el drama.",
+                                    placeholder: "Zayn"
+                                },
+                                en: {
+                                    name: "Zayn",
+                                    title: "Escape pop and broken hearts",
+                                    tooltip: "Left the band, but not the drama.",
+                                    placeholder: "Zayn"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1265,7 +1307,28 @@ export const treeData: TreeNode = {
                                     tooltip: "The champion of heartbreak with social media subtweets. If Darío saw his stories, he’d give him some advice.",
                                     placeholder: "Drake"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "partynextdoor",
+                                    branch: "urb",
+                                    image: img("PartyNextDoor"),
+                                    copy: {
+                                        es: {
+                                            name: "PartyNextDoor",
+                                            title: "R&B oscuro y tóxico",
+                                            tooltip: "Tus madrugadas no volvieron a ser iguales.",
+                                            placeholder: "PartyNextDoor"
+                                        },
+                                        en: {
+                                            name: "PartyNextDoor",
+                                            title: "Dark and toxic R&B",
+                                            tooltip: "Your late nights were never the same.",
+                                            placeholder: "PartyNextDoor"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
