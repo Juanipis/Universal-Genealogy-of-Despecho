@@ -217,7 +217,28 @@ export const treeData: TreeNode = {
                                             tooltip: "The prince who taught you that salsa can also be a subtle cry.",
                                             placeholder: "Luis Enrique"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "rey-ruiz",
+                                            branch: "salsa",
+                                            image: img("Rey Ruiz"),
+                                            copy: {
+                                                es: {
+                                                    name: "Rey Ruiz",
+                                                    title: "Salsa romántica de motel",
+                                                    tooltip: "Te pone a bailar sabroso, pero te apuñala por la espalda con la letra.",
+                                                    placeholder: "Rey Ruiz"
+                                                },
+                                                en: {
+                                                    name: "Rey Ruiz",
+                                                    title: "Motel romantic salsa",
+                                                    tooltip: "Makes you dance upfront, but stabs you in the back with the lyrics.",
+                                                    placeholder: "Rey Ruiz"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1044,7 +1065,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Invented the algorithm for being sad but classy in 2013.",
                                     placeholder: "Lorde"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "mitski",
+                                    branch: "pop",
+                                    image: img("Mitski"),
+                                    copy: {
+                                        es: {
+                                            name: "Mitski",
+                                            title: "La patrona del colapso mental",
+                                            tooltip: "Cada canción es una sesión de terapia que no te pudiste pagar.",
+                                            placeholder: "Mitski"
+                                        },
+                                        en: {
+                                            name: "Mitski",
+                                            title: "The boss of mental breakdowns",
+                                            tooltip: "Every song is a therapy session you couldn't afford.",
+                                            placeholder: "Mitski"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1566,7 +1608,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Rock indie de madrugadas arrepentidas",
+                                                    tooltip: "Quieren sonar a rebeldes de Sheffield, pero lloran por la misma ex desde 2013.",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Indie rock of regretful late nights",
+                                                    tooltip: "They want to sound like Sheffield rebels, but have been crying over the same ex since 2013.",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
