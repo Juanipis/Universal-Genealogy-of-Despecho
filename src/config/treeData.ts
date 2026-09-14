@@ -136,7 +136,28 @@ export const treeData: TreeNode = {
                                             tooltip: "I drank your memory to forget you, but now I remember you drunk.",
                                             placeholder: "Galy Galiano"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "luis-alberto-posada",
+                                            branch: "mex",
+                                            image: img("Luis Alberto Posada"),
+                                            copy: {
+                                                es: {
+                                                    name: "Luis Alberto Posada",
+                                                    title: "Cantina pura y dura",
+                                                    tooltip: "Si el hígado hablara, pediría piedad.",
+                                                    placeholder: "Luis Alberto Posada"
+                                                },
+                                                en: {
+                                                    name: "Luis Alberto Posada",
+                                                    title: "Pure hardcore cantina",
+                                                    tooltip: "If your liver could talk, it would beg for mercy.",
+                                                    placeholder: "Luis Alberto Posada"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1566,7 +1587,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Despecho británico con gomina",
+                                                    tooltip: "¿Por qué solo llamas cuando estás borracho?",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "British heartbreak with hair gel",
+                                                    tooltip: "Why'd you only call when you're high?",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1688,7 +1730,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Closing the door never sounded so dramatic.",
                                             placeholder: "Panic! At The Disco"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "twenty-one-pilots",
+                                            branch: "emo",
+                                            image: img("Twenty One Pilots"),
+                                            copy: {
+                                                es: {
+                                                    name: "Twenty One Pilots",
+                                                    title: "Despecho con rap y ukelele",
+                                                    tooltip: "Ansiedad cantada a toda velocidad para que no duela tanto.",
+                                                    placeholder: "Twenty One Pilots"
+                                                },
+                                                en: {
+                                                    name: "Twenty One Pilots",
+                                                    title: "Heartbreak with rap and ukulele",
+                                                    tooltip: "Anxiety sung at full speed so it doesn't hurt as much.",
+                                                    placeholder: "Twenty One Pilots"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
