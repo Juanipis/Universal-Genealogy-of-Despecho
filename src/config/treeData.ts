@@ -462,6 +462,25 @@ export const treeData: TreeNode = {
                                     placeholder: "La-33"
                                 }
                             }
+                        },
+                        {
+                            id: "fruko-y-sus-tesos",
+                            branch: "salsa",
+                            image: img("Fruko y sus Tesos"),
+                            copy: {
+                                es: {
+                                    name: "Fruko y sus Tesos",
+                                    title: "Salsa brava con despecho",
+                                    tooltip: "El preso no llora por la condena, llora por ella.",
+                                    placeholder: "Fruko y sus Tesos"
+                                },
+                                en: {
+                                    name: "Fruko y sus Tesos",
+                                    title: "Salsa brava with heartbreak",
+                                    tooltip: "The prisoner doesn't cry for the sentence, he cries for her.",
+                                    placeholder: "Fruko y sus Tesos"
+                                }
+                            }
                         }
                     ]
                 }
@@ -1065,7 +1084,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "finneas",
+                            branch: "pop",
+                            image: img("FINNEAS"),
+                            copy: {
+                                es: {
+                                    name: "FINNEAS",
+                                    title: "El hermano que te produce las lágrimas",
+                                    tooltip: "Producción minimalista para el llanto maximizado.",
+                                    placeholder: "FINNEAS"
+                                },
+                                en: {
+                                    name: "FINNEAS",
+                                    title: "The brother who produces your tears",
+                                    tooltip: "Minimalist production for maximized crying.",
+                                    placeholder: "FINNEAS"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1566,7 +1606,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Despecho indie británico",
+                                                    tooltip: "Cuando la tusa huele a cigarrillo y cuero mojado.",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "British indie heartbreak",
+                                                    tooltip: "When heartbreak smells like cigarettes and wet leather.",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
