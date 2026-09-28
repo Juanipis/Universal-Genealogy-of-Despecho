@@ -217,7 +217,28 @@ export const treeData: TreeNode = {
                                             tooltip: "The prince who taught you that salsa can also be a subtle cry.",
                                             placeholder: "Luis Enrique"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "rey-ruiz",
+                                            branch: "salsa",
+                                            image: img("Rey Ruiz"),
+                                            copy: {
+                                                es: {
+                                                    name: "Rey Ruiz",
+                                                    title: "Salsa romántica sin piedad",
+                                                    tooltip: "Para dar vueltas llorando con un trago en la mano.",
+                                                    placeholder: "Rey Ruiz"
+                                                },
+                                                en: {
+                                                    name: "Rey Ruiz",
+                                                    title: "Merciless romantic salsa",
+                                                    tooltip: "For spinning around crying with a drink in your hand.",
+                                                    placeholder: "Rey Ruiz"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1065,7 +1086,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "Diarios de una tusa pop",
+                                    tooltip: "Susurros tristes para cuando revisas si ya te desbloqueó.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "Diaries of pop heartbreak",
+                                    tooltip: "Sad whispers for when you check if they unblocked you.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1627,7 +1669,28 @@ export const treeData: TreeNode = {
                                             tooltip: "When Zoé is not enough for a broken heart.",
                                             placeholder: "León Larregui"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "natalia-lafourcade",
+                                            branch: "emo",
+                                            image: img("Natalia Lafourcade"),
+                                            copy: {
+                                                es: {
+                                                    name: "Natalia Lafourcade",
+                                                    title: "Hasta la raíz del dolor",
+                                                    tooltip: "Llorar con estilo folclórico y letras que te rompen en pedazos.",
+                                                    placeholder: "Natalia Lafourcade"
+                                                },
+                                                en: {
+                                                    name: "Natalia Lafourcade",
+                                                    title: "To the root of pain",
+                                                    tooltip: "Crying with folkloric style and lyrics that break you into pieces.",
+                                                    placeholder: "Natalia Lafourcade"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
