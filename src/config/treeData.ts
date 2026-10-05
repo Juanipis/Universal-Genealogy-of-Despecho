@@ -1065,7 +1065,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "tate-mcrae",
+                            branch: "pop",
+                            image: img("Tate McRae"),
+                            copy: {
+                                es: {
+                                    name: "Tate McRae",
+                                    title: "Corazón roto en TikTok",
+                                    tooltip: "Llorar bailando frente a la cámara frontal.",
+                                    placeholder: "Tate McRae"
+                                },
+                                en: {
+                                    name: "Tate McRae",
+                                    title: "TikTok broken heart",
+                                    tooltip: "Crying while dancing in front of the front camera.",
+                                    placeholder: "Tate McRae"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1505,7 +1526,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Music for staring at the ceiling and wondering why 2016 still hurts.",
                                             placeholder: "Cigarettes After Sex"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "lord-huron",
+                                            branch: "emo",
+                                            image: img("Lord Huron"),
+                                            copy: {
+                                                es: {
+                                                    name: "Lord Huron",
+                                                    title: "Lágrimas en el bosque",
+                                                    tooltip: "La noche en que nos conocimos, versión lamento eterno.",
+                                                    placeholder: "Lord Huron"
+                                                },
+                                                en: {
+                                                    name: "Lord Huron",
+                                                    title: "Tears in the woods",
+                                                    tooltip: "The night we met, eternal lament version.",
+                                                    placeholder: "Lord Huron"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -1566,7 +1608,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Tusa de pub británico",
+                                                    tooltip: "Cuando quieres volver con tu ex pero te haces el interesante a las 3 AM.",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "British pub heartbreak",
+                                                    tooltip: "When you want your ex back but act cool at 3 AM.",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
