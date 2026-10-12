@@ -987,7 +987,28 @@ export const treeData: TreeNode = {
                             tooltip: "Took the long route: from suffering in One Direction to crying in a Gucci skirt.",
                             placeholder: "Harry Styles",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "niall-horan",
+                            branch: "pop",
+                            image: img("Niall Horan"),
+                            copy: {
+                                es: {
+                                    name: "Niall Horan",
+                                    title: "Despecho acústico irlandés",
+                                    tooltip: "Te rompe el corazón pero te invita una cerveza.",
+                                    placeholder: "Niall Horan"
+                                },
+                                en: {
+                                    name: "Niall Horan",
+                                    title: "Acoustic Irish heartbreak",
+                                    tooltip: "Breaks your heart but buys you a pint.",
+                                    placeholder: "Niall Horan"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "bruno-mars",
@@ -1065,7 +1086,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "Diarios de ansiedad pop",
+                                    tooltip: "Para cuando quieres llorar en tu cuarto con luces tenues.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "Pop anxiety diaries",
+                                    tooltip: "For when you want to cry in your room with dim lights.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1566,7 +1608,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Rock británico de madrugada",
+                                                    tooltip: "Cuando el despecho suena a cigarrillos y cuero negro.",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Late-night British rock",
+                                                    tooltip: "When heartbreak sounds like cigarettes and black leather.",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
