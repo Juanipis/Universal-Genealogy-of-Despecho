@@ -461,7 +461,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Proved that in Bogotá they also know how to sweat the rhythm with spice.",
                                     placeholder: "La-33"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri-buenaventura",
+                                    branch: "salsa",
+                                    image: img("Yuri Buenaventura"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri Buenaventura",
+                                            title: "Salsa brava con dolor parisino",
+                                            tooltip: "Se fue a Francia a llorar en clave de salsa.",
+                                            placeholder: "Yuri Buenaventura"
+                                        },
+                                        en: {
+                                            name: "Yuri Buenaventura",
+                                            title: "Fierce salsa with Parisian pain",
+                                            tooltip: "Went to France to cry in salsa rhythm.",
+                                            placeholder: "Yuri Buenaventura"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -705,7 +726,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "La güera del despecho ochentero",
+                                            tooltip: "Llorar con laca en el pelo nunca fue tan dramático.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "The blonde of 80s heartbreak",
+                                            tooltip: "Crying with hairspray was never this dramatic.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1006,7 +1048,28 @@ export const treeData: TreeNode = {
                             tooltip: "He said he’d jump in front of a train for love: an advanced Darío fan, but with choreography.",
                             placeholder: "Bruno Mars",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "charlie-puth",
+                            branch: "pop",
+                            image: img("Charlie Puth"),
+                            copy: {
+                                es: {
+                                    name: "Charlie Puth",
+                                    title: "Corazón roto con oído absoluto",
+                                    tooltip: "Sabe exactamente en qué nota está llorando.",
+                                    placeholder: "Charlie Puth"
+                                },
+                                en: {
+                                    name: "Charlie Puth",
+                                    title: "Broken heart with perfect pitch",
+                                    tooltip: "He knows exactly what note he is crying in.",
+                                    placeholder: "Charlie Puth"
+                                }
+                            }
+                        }
+                    ]
                 },
                 {
                     id: "lana-del-rey",
