@@ -541,7 +541,28 @@ export const treeData: TreeNode = {
                                             tooltip: "They turned a cover into the official anthem for those who still haven't moved on in 2023.",
                                             placeholder: "Grupo Frontera"
                                         }
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "fuerza-regida",
+                                            branch: "mex",
+                                            image: img("Fuerza Regida"),
+                                            copy: {
+                                                es: {
+                                                    name: "Fuerza Regida",
+                                                    title: "Corridos pa la tusa",
+                                                    tooltip: "Porque el desamor también se sufre en una troca.",
+                                                    placeholder: "Fuerza Regida"
+                                                },
+                                                en: {
+                                                    name: "Fuerza Regida",
+                                                    title: "Corridos for heartbreak",
+                                                    tooltip: "Because heartbreak is also suffered in a truck.",
+                                                    placeholder: "Fuerza Regida"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
                                     id: "natanael-cano",
@@ -1065,7 +1086,28 @@ export const treeData: TreeNode = {
                             tooltip: "A generation that chose to sing heartbreak in a whisper and an oversized hoodie.",
                             placeholder: "Billie Eilish",
                         },
-                    }
+                    },
+                    children: [
+                        {
+                            id: "gracie-abrams",
+                            branch: "pop",
+                            image: img("Gracie Abrams"),
+                            copy: {
+                                es: {
+                                    name: "Gracie Abrams",
+                                    title: "Susurros de un corazón roto",
+                                    tooltip: "Si llorar en tu cuarto tuviera banda sonora.",
+                                    placeholder: "Gracie Abrams"
+                                },
+                                en: {
+                                    name: "Gracie Abrams",
+                                    title: "Whispers of a broken heart",
+                                    tooltip: "If crying in your bedroom had a soundtrack.",
+                                    placeholder: "Gracie Abrams"
+                                }
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -1566,7 +1608,28 @@ export const treeData: TreeNode = {
                                             tooltip: "Sounds like a New York band’s hangover after thinking they were immortal last night.",
                                             placeholder: "The Strokes",
                                         },
-                                    }
+                                    },
+                                    children: [
+                                        {
+                                            id: "arctic-monkeys",
+                                            branch: "emo",
+                                            image: img("Arctic Monkeys"),
+                                            copy: {
+                                                es: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "Mensajes a las 3 AM",
+                                                    tooltip: "Vueltas en la cama preguntándose si estará pensando en él.",
+                                                    placeholder: "Arctic Monkeys"
+                                                },
+                                                en: {
+                                                    name: "Arctic Monkeys",
+                                                    title: "3 AM text messages",
+                                                    tooltip: "Tossing and turning wondering if she's thinking of him.",
+                                                    placeholder: "Arctic Monkeys"
+                                                }
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
