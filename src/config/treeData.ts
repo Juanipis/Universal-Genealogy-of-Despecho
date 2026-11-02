@@ -298,6 +298,44 @@ export const treeData: TreeNode = {
                                             placeholder: "Romeo Santos"
                                         }
                                     }
+                                },
+                                {
+                                    id: "willie-colon",
+                                    branch: "salsa",
+                                    image: img("Willie Colón"),
+                                    copy: {
+                                        es: {
+                                            name: "Willie Colón",
+                                            title: "Trombón del dolor rebelde",
+                                            tooltip: "Lágrimas que suenan a esquina de Nueva York.",
+                                            placeholder: "Willie Colón"
+                                        },
+                                        en: {
+                                            name: "Willie Colon",
+                                            title: "Trombone of rebellious pain",
+                                            tooltip: "Tears that sound like a New York corner.",
+                                            placeholder: "Willie Colon"
+                                        }
+                                    }
+                                },
+                                {
+                                    id: "ruben-blades",
+                                    branch: "salsa",
+                                    image: img("Rubén Blades"),
+                                    copy: {
+                                        es: {
+                                            name: "Rubén Blades",
+                                            title: "Despecho intelectual",
+                                            tooltip: "Llorar pero con consciencia de clase.",
+                                            placeholder: "Rubén Blades"
+                                        },
+                                        en: {
+                                            name: "Ruben Blades",
+                                            title: "Intellectual heartbreak",
+                                            tooltip: "Crying but with class consciousness.",
+                                            placeholder: "Ruben Blades"
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -1044,7 +1082,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Invented the algorithm for being sad but classy in 2013.",
                                     placeholder: "Lorde"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "the-neighbourhood",
+                                    branch: "pop",
+                                    image: img("The Neighbourhood"),
+                                    copy: {
+                                        es: {
+                                            name: "The Neighbourhood",
+                                            title: "Tusa alternativa en blanco y negro",
+                                            tooltip: "California soleada, pero su corazón está oscuro.",
+                                            placeholder: "The Neighbourhood"
+                                        },
+                                        en: {
+                                            name: "The Neighbourhood",
+                                            title: "Black and white alternative heartbreak",
+                                            tooltip: "Sunny California, but their heart is dark.",
+                                            placeholder: "The Neighbourhood"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1693,6 +1752,44 @@ export const treeData: TreeNode = {
                             ]
                         }
                     ]
+                },
+                {
+                    id: "green-day",
+                    branch: "emo",
+                    image: img("Green Day"),
+                    copy: {
+                        es: {
+                            name: "Green Day",
+                            title: "Punk rock para el mal de amores",
+                            tooltip: "Caminando por un bulevar de sueños rotos.",
+                            placeholder: "Green Day"
+                        },
+                        en: {
+                            name: "Green Day",
+                            title: "Punk rock for heartbreak",
+                            tooltip: "Walking down a boulevard of broken dreams.",
+                            placeholder: "Green Day"
+                        }
+                    }
+                },
+                {
+                    id: "blink-182",
+                    branch: "emo",
+                    image: img("Blink-182"),
+                    copy: {
+                        es: {
+                            name: "Blink-182",
+                            title: "Tusa adolescente perpetua",
+                            tooltip: "I miss you.",
+                            placeholder: "Blink-182"
+                        },
+                        en: {
+                            name: "Blink-182",
+                            title: "Perpetual teenage heartbreak",
+                            tooltip: "I miss you.",
+                            placeholder: "Blink-182"
+                        }
+                    }
                 }
             ]
         }
