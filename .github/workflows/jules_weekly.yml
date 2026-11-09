@@ -1,0 +1,30 @@
+name: Weekly Jules Wake-Up
+
+on:
+  schedule:
+    # Ejecutar todos los lunes a las 8:00 AM UTC
+    - cron: "0 8 * * 1"
+  workflow_dispatch: # Para probarlo manual cuando quieras
+
+jobs:
+  wake-up-jules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Trigger Jules API
+        env:
+          # Recuerda añadir este secreto en Settings -> Secrets and variables -> Actions
+          JULES_API_KEY: ${{ secrets.JULES_API_KEY }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          REF_NAME: ${{ github.ref_name }}
+        run: python scripts/trigger_jules.py
