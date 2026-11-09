@@ -461,7 +461,28 @@ export const treeData: TreeNode = {
                                     tooltip: "Proved that in Bogotá they also know how to sweat the rhythm with spice.",
                                     placeholder: "La-33"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "tromboranga",
+                                    branch: "salsa",
+                                    image: img("Tromboranga"),
+                                    copy: {
+                                        es: {
+                                            name: "Tromboranga",
+                                            title: "Salsa gorda con lamentos pesados",
+                                            tooltip: "Trombones que lloran más que tú.",
+                                            placeholder: "Tromboranga"
+                                        },
+                                        en: {
+                                            name: "Tromboranga",
+                                            title: "Heavy salsa with heavy laments",
+                                            tooltip: "Trombones crying harder than you.",
+                                            placeholder: "Tromboranga"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -705,7 +726,28 @@ export const treeData: TreeNode = {
                                     tooltip: "She sang warnings before prenups were mainstream.",
                                     placeholder: "Lupita D'Alessio"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "yuri",
+                                    branch: "mex",
+                                    image: img("Yuri"),
+                                    copy: {
+                                        es: {
+                                            name: "Yuri",
+                                            title: "La maldita primavera en loop",
+                                            tooltip: "Para llorar con un vino barato y rímel corrido.",
+                                            placeholder: "Yuri"
+                                        },
+                                        en: {
+                                            name: "Yuri",
+                                            title: "The damned spring on loop",
+                                            tooltip: "To cry with cheap wine and runny mascara.",
+                                            placeholder: "Yuri"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1446,7 +1488,28 @@ export const treeData: TreeNode = {
                                     tooltip: "While Pxndx was making a scene, they were tuning guitars and writing more subtle heartbreak anthems.",
                                     placeholder: "División Minúscula"
                                 }
-                            }
+                            },
+                            children: [
+                                {
+                                    id: "allison",
+                                    branch: "emo",
+                                    image: img("Allison"),
+                                    copy: {
+                                        es: {
+                                            name: "Allison",
+                                            title: "Desamor pop-punk de secundaria",
+                                            tooltip: "Me muero por ti, pero tengo tarea.",
+                                            placeholder: "Allison"
+                                        },
+                                        en: {
+                                            name: "Allison",
+                                            title: "High school pop-punk heartbreak",
+                                            tooltip: "I'm dying for you, but I have homework.",
+                                            placeholder: "Allison"
+                                        }
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
